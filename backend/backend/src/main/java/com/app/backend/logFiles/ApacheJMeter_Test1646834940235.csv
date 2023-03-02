@@ -1,0 +1,140 @@
+1646834960823,3315,HTTP Request,200,OK,Thread Group 1-4,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,1331,0,1223
+1646834960823,1337,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,7,7,https://google.com/search?q=ukraine,1331,0,1223
+1646834962168,599,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,599,0,392
+1646834962773,518,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,518,0,437
+1646834963291,847,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,224,0,0
+1646834960523,3664,HTTP Request,200,OK,Thread Group 1-1,text,true,,120473,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,1631,0,1532
+1646834960523,1637,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,7,7,https://google.com/search?q=ukraine,1631,0,1532
+1646834962169,569,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,569,0,389
+1646834962740,595,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,595,0,471
+1646834963335,852,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,117389,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,224,0,0
+1646834961108,3087,HTTP Request,200,OK,Thread Group 1-6,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,1047,0,947
+1646834961108,1052,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,7,7,https://google.com/search?q=ukraine,1047,0,947
+1646834962168,687,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,687,0,390
+1646834962856,474,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,474,0,355
+1646834963330,865,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,227,0,0
+1646834961254,2964,HTTP Request,200,OK,Thread Group 1-7,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,900,0,793
+1646834961254,906,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,7,7,https://google.com/search?q=ukraine,900,0,793
+1646834962164,582,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,581,0,397
+1646834962748,628,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,628,0,466
+1646834963376,842,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,207,0,0
+1646834960681,3662,HTTP Request,200,OK,Thread Group 1-3,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,1473,0,1374
+1646834960681,1479,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,7,7,https://google.com/search?q=ukraine,1473,0,1374
+1646834962169,574,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,574,0,390
+1646834962745,598,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,598,0,466
+1646834963343,1000,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,227,0,0
+1646834960541,4040,HTTP Request,200,OK,Thread Group 1-2,text,true,,120668,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,1613,0,1506
+1646834960541,1619,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,7,7,https://google.com/search?q=ukraine,1613,0,1506
+1646834962166,1122,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,1122,0,394
+1646834963289,352,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,352,0,256
+1646834963642,939,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,117419,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,229,0,0
+1646834960965,3763,HTTP Request,200,OK,Thread Group 1-5,text,true,,120623,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,1190,0,1081
+1646834960965,1195,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,7,7,https://google.com/search?q=ukraine,1190,0,1081
+1646834962164,696,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,696,0,367
+1646834962862,471,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,471,0,348
+1646834963334,1394,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,117374,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,767,0,0
+1646834964152,1212,HTTP Request,200,OK,Thread Group 1-4,text,true,,120503,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,73,0,0
+1646834964152,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,7,7,https://google.com/search?q=ukraine,73,0,0
+1646834964225,238,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,238,0,0
+1646834964463,90,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,90,0,0
+1646834964553,811,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,117419,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,229,0,0
+1646834964188,1185,HTTP Request,200,OK,Thread Group 1-1,text,true,,120624,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,85,0,0
+1646834964188,85,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,7,7,https://google.com/search?q=ukraine,85,0,0
+1646834964273,193,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,193,0,0
+1646834964466,138,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,138,0,0
+1646834964604,769,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,232,0,0
+1646834964220,1273,HTTP Request,200,OK,Thread Group 1-7,text,true,,120624,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,67,0,0
+1646834964220,67,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,7,7,https://google.com/search?q=ukraine,67,0,0
+1646834964287,184,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,184,0,0
+1646834964471,168,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,168,0,0
+1646834964639,854,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,348,0,0
+1646834964196,1400,HTTP Request,200,OK,Thread Group 1-6,text,true,,120503,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,75,0,0
+1646834964196,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,7,7,https://google.com/search?q=ukraine,75,0,0
+1646834964272,193,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,192,0,0
+1646834964465,128,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,128,0,0
+1646834964594,1002,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,117419,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,441,0,0
+1646834964343,1440,HTTP Request,200,OK,Thread Group 1-3,text,true,,120846,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,120,0,0
+1646834964343,120,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,7,7,https://google.com/search?q=ukraine,120,0,0
+1646834964463,186,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,186,0,0
+1646834964649,113,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,113,0,0
+1646834964762,1021,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,117762,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,232,0,0
+1646834964581,1313,HTTP Request,200,OK,Thread Group 1-2,text,true,,120624,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,75,0,0
+1646834964581,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,7,7,https://google.com/search?q=ukraine,75,0,0
+1646834964657,189,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,189,0,0
+1646834964847,96,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,96,0,0
+1646834964943,951,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,220,0,0
+1646834964729,1421,HTTP Request,200,OK,Thread Group 1-5,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,72,0,0
+1646834964729,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,7,7,https://google.com/search?q=ukraine,72,0,0
+1646834964802,181,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,181,0,0
+1646834964983,90,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,90,0,0
+1646834965073,1077,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,495,0,0
+1646834965365,1193,HTTP Request,200,OK,Thread Group 1-4,text,true,,120444,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,73,0,0
+1646834965365,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,7,7,https://google.com/search?q=ukraine,73,0,0
+1646834965439,212,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,212,0,0
+1646834965652,133,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,133,0,0
+1646834965786,772,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,117360,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,223,0,0
+1646834965494,1173,HTTP Request,200,OK,Thread Group 1-7,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,69,0,0
+1646834965494,69,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,7,7,https://google.com/search?q=ukraine,69,0,0
+1646834965563,222,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,222,0,0
+1646834965785,111,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,111,0,0
+1646834965896,771,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,229,0,0
+1646834965374,1454,HTTP Request,200,OK,Thread Group 1-1,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,74,0,0
+1646834965374,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,7,7,https://google.com/search?q=ukraine,74,0,0
+1646834965449,233,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,233,0,0
+1646834965683,114,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,114,0,0
+1646834965797,1031,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,418,0,0
+1646834965598,1395,HTTP Request,200,OK,Thread Group 1-6,text,true,,120459,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,94,0,0
+1646834965598,95,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,7,7,https://google.com/search?q=ukraine,94,0,0
+1646834965693,200,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,200,0,0
+1646834965894,92,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,92,0,0
+1646834965987,1006,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,469,0,0
+1646834965784,1353,HTTP Request,200,OK,Thread Group 1-3,text,true,,123732,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,109,0,0
+1646834965784,109,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,7,7,https://google.com/search?q=ukraine,109,0,0
+1646834965894,184,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,184,0,0
+1646834966078,102,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1163,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,102,0,0
+1646834966181,956,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,120648,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,338,0,0
+1646834965895,1465,HTTP Request,200,OK,Thread Group 1-2,text,true,,120653,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,72,0,0
+1646834965895,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,7,7,https://google.com/search?q=ukraine,72,0,0
+1646834965968,182,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,182,0,0
+1646834966150,93,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,93,0,0
+1646834966243,1117,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,117404,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,497,0,0
+1646834966151,1318,HTTP Request,200,OK,Thread Group 1-5,text,true,,120624,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,113,0,0
+1646834966151,113,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,7,7,https://google.com/search?q=ukraine,113,0,0
+1646834966265,245,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,245,0,0
+1646834966510,96,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,96,0,0
+1646834966606,863,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,117375,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,318,0,0
+1646834966670,1286,HTTP Request,200,OK,Thread Group 1-7,text,true,,120668,616,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,69,0,0
+1646834966670,69,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,7,7,https://google.com/search?q=ukraine,69,0,0
+1646834966739,182,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1008,135,7,7,https://www.google.com/search?q=ukraine,182,0,0
+1646834966921,90,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1328,207,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,90,0,0
+1646834967011,945,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,117419,143,7,7,https://www.google.com/search?q=ukraine&ucbcb=1,358,0,0
+1646834966559,1477,HTTP Request,200,OK,Thread Group 1-4,text,true,,121648,616,6,6,https://www.google.com/search?q=ukraine&ucbcb=1,76,0,0
+1646834966559,76,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,6,6,https://google.com/search?q=ukraine,76,0,0
+1646834966635,185,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1008,135,6,6,https://www.google.com/search?q=ukraine,185,0,0
+1646834966821,90,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1163,207,6,6,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,90,0,0
+1646834966912,1124,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,118564,143,6,6,https://www.google.com/search?q=ukraine&ucbcb=1,490,0,0
+1646834966829,1369,HTTP Request,200,OK,Thread Group 1-1,text,true,,120875,616,5,5,https://www.google.com/search?q=ukraine&ucbcb=1,80,0,0
+1646834966829,81,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,5,5,https://google.com/search?q=ukraine,80,0,0
+1646834966910,201,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1008,135,5,5,https://www.google.com/search?q=ukraine,201,0,0
+1646834967111,109,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1163,207,5,5,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,109,0,0
+1646834967220,978,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,117791,143,5,5,https://www.google.com/search?q=ukraine&ucbcb=1,230,0,0
+1646834966993,1478,HTTP Request,200,OK,Thread Group 1-6,text,true,,120503,616,4,4,https://www.google.com/search?q=ukraine&ucbcb=1,87,0,0
+1646834966993,87,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,4,4,https://google.com/search?q=ukraine,87,0,0
+1646834967080,269,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1008,135,4,4,https://www.google.com/search?q=ukraine,268,0,0
+1646834967349,90,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1163,207,4,4,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,90,0,0
+1646834967439,1032,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,117419,143,4,4,https://www.google.com/search?q=ukraine&ucbcb=1,459,0,0
+1646834967138,1448,HTTP Request,200,OK,Thread Group 1-3,text,true,,120459,616,3,3,https://www.google.com/search?q=ukraine&ucbcb=1,71,0,0
+1646834967138,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,3,3,https://google.com/search?q=ukraine,71,0,0
+1646834967210,179,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1008,135,3,3,https://www.google.com/search?q=ukraine,179,0,0
+1646834967389,91,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1163,207,3,3,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646834967480,1106,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,117375,143,3,3,https://www.google.com/search?q=ukraine&ucbcb=1,495,0,0
+1646834967361,1230,HTTP Request,200,OK,Thread Group 1-2,text,true,,120653,616,2,2,https://www.google.com/search?q=ukraine&ucbcb=1,82,0,0
+1646834967361,82,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,2,2,https://google.com/search?q=ukraine,82,0,0
+1646834967443,182,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1008,135,2,2,https://www.google.com/search?q=ukraine,182,0,0
+1646834967625,91,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1328,207,2,2,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646834967717,874,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,117404,143,2,2,https://www.google.com/search?q=ukraine&ucbcb=1,369,0,0
+1646834967469,1397,HTTP Request,200,OK,Thread Group 1-5,text,true,,120689,616,1,1,https://www.google.com/search?q=ukraine&ucbcb=1,71,0,0
+1646834967469,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,1,1,https://google.com/search?q=ukraine,71,0,0
+1646834967540,186,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1008,135,1,1,https://www.google.com/search?q=ukraine,186,0,0
+1646834967727,113,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1328,207,1,1,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dukraine&gl=RO&m=0&pc=srp&hl=ro&src=1,113,0,0
+1646834967841,1025,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,117440,143,1,1,https://www.google.com/search?q=ukraine&ucbcb=1,471,0,0

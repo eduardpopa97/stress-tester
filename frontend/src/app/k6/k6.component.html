@@ -1,0 +1,200 @@
+<p>
+  <mat-toolbar color="primary">
+    <span>Web Stress Tester</span>
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    <a href="apache"
+      ><button mat-raised-button color="accent">
+        Apache JMeter Stress Testing
+      </button></a
+    >
+  </mat-toolbar>
+</p>
+
+<ngx-alerts></ngx-alerts>
+
+<mat-tab-group mat-stretch-tabs>
+  <mat-tab label="Create test plan">
+    <br />
+    <mat-chip-list>
+      &#10240;&#10240;
+      <mat-chip color="primary" selected
+        >Select a resource for testing</mat-chip
+      >
+    </mat-chip-list>
+
+    <br />
+    &#10240;&#10240;
+    <mat-form-field appearance="outline" [style.width.px]="500">
+      <mat-label>URL</mat-label>
+      <input matInput name="URL" id="URL" #URL />
+    </mat-form-field>
+
+    <br />
+    <br />
+    <mat-chip-list>
+      &#10240;&#10240;
+      <mat-chip color="primary" selected>Select a testing plan</mat-chip>
+    </mat-chip-list>
+
+    <div>
+      <br />
+      <br />
+      &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+      &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+      &#10240;&#10240;&#10240;&#10240;
+
+      <button mat-raised-button color="primary" (click)="addRows()">
+        Add new trend
+      </button>
+
+      &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+      <button mat-raised-button color="primary" (click)="removeSelectedRows()">
+        Remove trend
+      </button>
+
+      &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+      <button mat-raised-button color="warn" (click)="runK6(URL.value)">
+        Run analysis
+      </button>
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <table
+      mat-table
+      #table
+      [dataSource]="dataSource"
+      class="mat-elevation-z8"
+      class="center"
+    >
+      <!-- Checkbox Column -->
+      <ng-container matColumnDef="select">
+        <mat-header-cell *matHeaderCellDef>
+          <mat-checkbox
+            (change)="$event ? masterToggle() : null"
+            [checked]="selection.hasValue() && isAllSelected()"
+            [indeterminate]="selection.hasValue() && !isAllSelected()"
+          >
+          </mat-checkbox>
+        </mat-header-cell>
+        <mat-cell *matCellDef="let row">
+          <mat-checkbox
+            (click)="$event.stopPropagation()"
+            (change)="$event ? selection.toggle(row) : null"
+            [checked]="selection.isSelected(row)"
+          >
+          </mat-checkbox>
+        </mat-cell>
+      </ng-container>
+
+      <!-- Position Column -->
+      <ng-container matColumnDef="key">
+        <mat-header-cell *matHeaderCellDef>
+          Duration (seconds)
+        </mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          <mat-form-field class="example-full-width">
+            <input matInput [(ngModel)]="element.key" value="" />
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="value">
+        <mat-header-cell *matHeaderCellDef>
+          Number of requests
+        </mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          <mat-form-field class="example-full-width">
+            <input matInput [(ngModel)]="element.value" value="" />
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row
+        *matRowDef="let row; columns: displayedColumns"
+        (click)="selection.toggle(row)"
+      >
+      </mat-row>
+    </table>
+  </mat-tab>
+
+  <mat-tab label="View results"> 
+    <br>
+    <br>
+    <textarea
+              class="form-control"
+              disabled
+              style="
+                height: 400px;
+                width: 1260px;
+                margin-left: 20px;
+                margin-right: 20px;
+                white-space:pre-wrap;
+              "
+              >{{this.plan}}</textarea
+            >
+  </mat-tab>
+
+  <mat-tab label="View history"> 
+    <table
+    mat-table
+    [dataSource]="dataSourceLog"
+    class="example-container mat-elevation-z8"
+    style="
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+      padding-left: 100px;
+    "
+  >
+    <ng-container matColumnDef="fileName">
+      <th mat-header-cell *matHeaderCellDef>Test plan file name</th>
+      <td mat-cell *matCellDef="let element">{{ element.fileName }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="primary">
+      <th mat-header-cell *matHeaderCellDef>Select file</th>
+      <td mat-cell *matCellDef="let element">
+        <mat-radio-button
+          (click)="primaryClick(element)"
+          [checked]="primaryContact.fileName == element.fileName"
+        ></mat-radio-button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsLog"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumnsLog"></tr>
+  </table>
+
+  <br />
+  &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+  <button mat-raised-button color="primary" (click)="onParseK6()">
+    Parse selected file
+  </button>
+
+  <textarea
+    class="form-control"
+    disabled
+    style="
+      height: 400px;
+      width: 700px;
+      margin-left: 580px;
+      margin-top: -460px;
+      margin-right: 20px;
+      margin-bottom: 170px;
+      white-space:pre-wrap;
+    "
+    align="right"
+    >{{ this.selectedPlan }}</textarea
+  >
+  </mat-tab>
+</mat-tab-group>

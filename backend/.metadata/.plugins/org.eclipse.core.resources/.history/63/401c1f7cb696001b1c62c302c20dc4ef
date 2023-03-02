@@ -1,0 +1,53 @@
+package com.app.backend;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.json.simple.JSONObject; 
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@SpringBootApplication
+public class BackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BackendApplication.class, args);
+	}
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/test")
+	public List<JSONObject> test() {
+		
+//		JSONObject obj=new JSONObject();    
+//		  obj.put("name","sonoo");    
+//		  obj.put("age",new Integer(27));    
+//		  obj.put("salary",new Double(600000));    
+//		  return obj;   
+		
+		 List<JSONObject> myJSONObjects = new  ArrayList<JSONObject>(); 
+		 JSONObject obj1 = new JSONObject();
+		 JSONObject obj2 = new JSONObject();
+		  extracted(obj1);    
+		  obj1.put("age",new Integer(27));    
+		  obj1.put("salary",new Double(600000)); 
+		  
+		  obj2.put("name","lala");    
+		  obj2.put("age",new Integer(24));    
+		  obj2.put("salary",new Double(400000)); 
+		  
+		  myJSONObjects.add(obj1);
+		  myJSONObjects.add(obj2);
+		  
+		  return myJSONObjects;
+		
+	}
+
+	private Object extracted(JSONObject obj1) {
+		return obj1.put("name","sonoo");
+	}
+
+}

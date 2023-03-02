@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementProp elementType="HTTPArgument" name="q">
+   <boolProp name="HTTPArgument.always_encode">true</boolProp>
+   <stringProp name="Argument.value">aii upb</stringProp>
+   <stringProp name="Argument.metadata">=</stringProp>
+   <boolProp name="HTTPArgument.use_equals">true</boolProp>
+   <stringProp name="Argument.name">q</stringProp>
+</elementProp>

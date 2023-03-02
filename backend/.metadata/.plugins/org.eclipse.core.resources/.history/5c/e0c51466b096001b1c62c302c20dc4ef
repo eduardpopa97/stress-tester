@@ -1,0 +1,29 @@
+package com.app.backend;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@SpringBootApplication
+public class BackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BackendApplication.class, args);
+	}
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/test")
+	public List<String> getPlansDetails() {
+		
+		List<String> finalarray = new ArrayList<String>();
+		
+		return finalarray;
+		
+	}
+
+}

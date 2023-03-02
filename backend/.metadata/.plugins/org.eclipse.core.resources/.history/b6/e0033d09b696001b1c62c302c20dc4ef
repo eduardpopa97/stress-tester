@@ -1,0 +1,425 @@
+package com.app.backend.protocolController;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import org.jsoup.Jsoup;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.apache.jmeter.config.Arguments;
+import org.apache.jmeter.config.gui.ArgumentsPanel;
+import org.apache.jmeter.control.LoopController;
+import org.apache.jmeter.control.gui.LoopControlPanel;
+import org.apache.jmeter.control.gui.TestPlanGui;
+import org.apache.jmeter.engine.StandardJMeterEngine;
+import org.apache.jmeter.protocol.http.sampler.HTTPSampler;
+import org.apache.jmeter.protocol.java.control.gui.JavaTestSamplerGui;
+import org.apache.jmeter.protocol.java.sampler.JavaSampler;
+import org.apache.jmeter.reporters.ResultCollector;
+import org.apache.jmeter.reporters.Summariser;
+import org.apache.jmeter.save.SaveService;
+import org.apache.jmeter.testelement.TestElement;
+import org.apache.jmeter.testelement.TestPlan;
+import org.apache.jmeter.threads.ThreadGroup;
+import org.apache.jmeter.threads.gui.ThreadGroupGui;
+import org.apache.jmeter.util.JMeterUtils;
+
+import org.apache.jorphan.collections.HashTree;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.xml.sax.SAXException;
+
+@RestController
+public class HTTPController {
+
+	public static List<String> stats = new ArrayList<String>(); 
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/http")
+	public List<Object> httpRequest(@RequestParam(required = false, value = "users") String users,
+			@RequestParam(required = false, value = "ramp") String ramp,
+			@RequestParam(required = false, value = "loops") String loops,
+			@RequestParam(required = false, value = "server") String server,
+			@RequestParam(required = false, value = "method") String method,
+			@RequestParam(required = false, value = "port") String port,
+			@RequestParam(required = false, value = "path") String path,
+			@RequestParam(required = false, value = "httpparam") String httpparam)
+			throws FileNotFoundException, IOException, ParserConfigurationException, SAXException, TransformerException {
+		// JMeter Engine
+		StandardJMeterEngine jmeter = new StandardJMeterEngine();
+
+		// JMeter initialization (properties, log levels, locale, etc)
+		JMeterUtils.loadJMeterProperties(
+				"C:\\Users\\popae\\Downloads\\apache-jmeter-5.4\\apache-jmeter-5.4\\bin\\jmeter.properties");
+		JMeterUtils.setJMeterHome("C:\\Users\\popae\\Downloads\\apache-jmeter-5.4");
+		JMeterUtils.initLocale();
+
+		// JMeter Test Plan
+		HashTree testPlanTree = new HashTree();
+
+		// Java Request
+		JavaSampler javaSampler = new JavaSampler();
+		javaSampler.setName("Java Request");
+		javaSampler.setClassname("org.apache.jmeter.protocol.java.test.SleepTest");
+		Arguments arguments = new Arguments();
+		arguments.addArgument("SleepTime", "1000");
+		arguments.addArgument("SleepMask", "0x33F");
+		javaSampler.setArguments(arguments);
+		javaSampler.setProperty(TestElement.TEST_CLASS, JavaSampler.class.getName());
+		javaSampler.setProperty(TestElement.GUI_CLASS, JavaTestSamplerGui.class.getName());
+
+		// HTTP Sampler
+		HTTPSampler httpSampler = new HTTPSampler();
+		httpSampler.setDomain(server);
+		if(port != null && port != "")  httpSampler.setPort(Integer.parseInt(port));
+		httpSampler.setPath(path);
+		httpSampler.setMethod(method);
+//		String[] paramsHttp = StringUtils.substringsBetween(httpparam , "\"", "\"");
+//		for(int i=0; i<paramsHttp.length/2; i++) {
+//			httpSampler.addArgument(paramsHttp[2*i], paramsHttp[2*i+1]);
+//		}
+		httpSampler.addTestElement(javaSampler);
+
+		// Loop Controller
+		TestElement loopController = new LoopController();
+		((LoopController) loopController).setLoops(Integer.parseInt(loops));
+		loopController.addTestElement(javaSampler);
+		((LoopController) loopController).setFirst(true);
+		loopController.setProperty(TestElement.TEST_CLASS, LoopController.class.getName());
+		loopController.setProperty(TestElement.GUI_CLASS, LoopControlPanel.class.getName());
+		((LoopController) loopController).initialize();
+
+		// Thread Group
+		ThreadGroup threadGroup = new ThreadGroup();
+		threadGroup.setNumThreads(Integer.parseInt(users));
+		threadGroup.setRampUp(Integer.parseInt(ramp));
+		threadGroup.setName("Thread Group");
+		threadGroup.setSamplerController(((LoopController) loopController));
+		threadGroup.setProperty(TestElement.TEST_CLASS, ThreadGroup.class.getName());
+		threadGroup.setProperty(TestElement.GUI_CLASS, ThreadGroupGui.class.getName());
+
+		// Test Plan
+		TestPlan testPlan = new TestPlan("Create JMeter Script From Java Code");
+		testPlan.setProperty(TestElement.TEST_CLASS, TestPlan.class.getName());
+		testPlan.setProperty(TestElement.GUI_CLASS, TestPlanGui.class.getName());
+		testPlan.setUserDefinedVariables((Arguments) new ArgumentsPanel().createTestElement());
+
+		// Construct Test Plan from previously initialized elements
+		testPlanTree.add(testPlan);
+		HashTree threadGroupHashTree = testPlanTree.add(testPlan, threadGroup);
+		threadGroupHashTree.add(javaSampler);
+
+		String fileName = String.valueOf(System.currentTimeMillis());
+
+		// save generated test plan to JMeter's .jmx file format
+		SaveService.saveTree(testPlanTree, new FileOutputStream(
+				"D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\testingFiles\\HTTP_Test"
+						+ fileName + ".jmx"));
+
+		// add Summarizer output to get test progress
+		Summariser summer = null;
+		String summariserName = JMeterUtils.getPropDefault("summariser.name", "summary");
+		if (summariserName.length() > 0) {
+			summer = new Summariser(summariserName);
+		}
+
+		// Store execution results into a .csv file
+		String logFile = "D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\logFiles\\HTTP_Test"
+				+ fileName + ".csv";
+		ResultCollector logger = new ResultCollector(summer);
+		logger.setFilename(logFile);
+		testPlanTree.add(testPlanTree.getArray()[0], logger);
+
+		jmeter.configure(testPlanTree);
+		long startTime = System.nanoTime();
+		jmeter.run();
+
+		long endTime = System.nanoTime();
+		PrintWriter writer = new PrintWriter(logFile);
+		writer.print("");
+		writer.close();
+
+		File myObj = new File(
+				"D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\templateFiles\\created.jmx");
+
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		DocumentBuilder db = dbf.newDocumentBuilder();
+		Document dom = db.parse(myObj.toString());
+		Document param = db.parse(new File(
+				"D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\templateFiles\\parametersDOM.jmx")
+						.toString());
+
+		// nr de bucle
+		NodeList nList = dom.getElementsByTagName("elementProp");
+		Element emp = (Element) nList.item(1);
+		Node name = emp.getElementsByTagName("stringProp").item(0).getFirstChild();
+		name.setNodeValue(loops);
+
+		// nr de fire de executie
+		NodeList nList1 = dom.getElementsByTagName("ThreadGroup");
+		Element emp1 = (Element) nList1.item(0);
+		Node name1 = emp1.getElementsByTagName("stringProp").item(2).getFirstChild();
+		name1.setNodeValue(users);
+
+		// perioada de timp intre firele de executie
+		NodeList nList2 = dom.getElementsByTagName("ThreadGroup");
+		Element emp2 = (Element) nList2.item(0);
+		Node name2 = emp2.getElementsByTagName("stringProp").item(3).getFirstChild();
+		name2.setNodeValue(ramp);
+
+		// domeniul
+		NodeList nList3 = dom.getElementsByTagName("HTTPSamplerProxy");
+		Element emp3 = (Element) nList3.item(0);
+		Node name3 = emp3.getElementsByTagName("stringProp").item(0).getFirstChild();
+		name3.setNodeValue(server);
+
+		// nr port
+		NodeList nList4 = dom.getElementsByTagName("HTTPSamplerProxy");
+		Element emp4 = (Element) nList4.item(0);
+		Node name4 = emp4.getElementsByTagName("stringProp").item(1).getFirstChild();
+		if(port != null && port != "") name4.setNodeValue(port);
+
+		// calea
+		NodeList nList5 = dom.getElementsByTagName("HTTPSamplerProxy");
+		Element emp5 = (Element) nList5.item(0);
+		Node name5 = emp5.getElementsByTagName("stringProp").item(4).getFirstChild();
+		name5.setNodeValue(path);
+
+		// metoda HTTP
+		NodeList nList6 = dom.getElementsByTagName("HTTPSamplerProxy");
+		Element emp6 = (Element) nList6.item(0);
+		Node name6 = emp6.getElementsByTagName("stringProp").item(5).getFirstChild();
+		name6.setNodeValue(method);
+
+		// adaugare parametri in cererea HTTP
+		String[] valuesHttp = StringUtils.substringsBetween(httpparam , "\"", "\"");
+		NodeList nList7 = param.getElementsByTagName("elementProp");
+		Element emp7 = (Element) nList7.item(0);
+		
+		for(int i=0; i<valuesHttp.length/2; i++) {
+			emp7.setAttribute("name", valuesHttp[2*i]);
+			Node name7 = emp7.getElementsByTagName("stringProp").item(0).getFirstChild();
+			name7.setNodeValue(valuesHttp[2*i+1]);
+			
+			Node name8 = emp7.getElementsByTagName("stringProp").item(2).getFirstChild();
+			name8.setNodeValue(valuesHttp[2*i]);
+			
+			param.getDocumentElement().normalize();
+			TransformerFactory transformerFactory1 = TransformerFactory.newInstance();
+			Transformer transformer1 = transformerFactory1.newTransformer();
+			DOMSource source1 = new DOMSource(param);
+			StreamResult result1 = new StreamResult(new File("D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\templateFiles\\createdPARAM.jmx"));
+			transformer1.setOutputProperty(OutputKeys.INDENT, "yes");
+		    transformer1.transform(source1, result1);
+			 
+			Document param1 = db.parse(new File("D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\templateFiles\\createdPARAM.jmx").toString());
+	        
+			NodeList list = param1.getElementsByTagName("elementProp");
+			Element element = (Element) list.item(0);
+			Node dup = dom.importNode(element, true);
+			dom.getElementsByTagName("collectionProp").item(1).appendChild(dup);
+			
+			// update JMX
+			 
+			dom.getDocumentElement().normalize();
+			TransformerFactory transformerFactory = TransformerFactory.newInstance();
+			Transformer transformer = transformerFactory.newTransformer();
+	         
+	        DOMSource source = new DOMSource(dom);
+	        StreamResult result = new StreamResult(new File("D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\testingFiles\\HTTP_Test"
+					+ fileName + ".jmx"));
+	        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+	        transformer.transform(source, result);
+	      //  System.out.println("XML file updated successfully");
+		}
+		
+		//lansare comanda
+		String command = "C:\\Users\\popae\\Downloads\\apache-jmeter-5.4\\apache-jmeter-5.4\\bin\\jmeter.bat -n -t src\\main\\java\\com\\app\\backend\\testingFiles\\HTTP_Test"+fileName+".jmx"+" -l"+" src\\main\\java\\com\\app\\backend\\logFiles\\HTTP_Test"+fileName+".csv";
+		System.out.println(command);
+        Process process = Runtime.getRuntime().exec(command);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+		String line = "";
+		List<String> myList = new ArrayList<String>();
+		while ((line = reader.readLine()) != null) {
+			myList.add(line);
+		//	System.out.println(line);
+		 }
+		// System.out.println(myList.get(myList.size()-3));
+		 String data = myList.get(myList.size()-3);
+		 
+		 HTTPController.stats.clear();
+		 String ch = "";
+		 for(int i=0; i<data.length(); i++) {
+			// System.out.println(data.charAt(i));
+			 if (!String.valueOf(data.charAt(i)).equals(" ")) {
+				 ch = ch + String.valueOf(data.charAt(i));
+				 //System.out.println(ch);
+			 }
+			 else {
+				 if(!ch.equals("")) HTTPController.stats.add(ch);
+				 ch = "";
+			 }
+		 }
+		 
+
+		List<Object> finalarray = new ArrayList<Object>();
+		//finalarray.add("src\\main\\java\\com\\app\\backend\\logFiles\\HTTP_Test"+fileName+".csv");
+		try (BufferedReader br = Files.newBufferedReader(Paths.get("src\\main\\java\\com\\app\\backend\\logFiles\\HTTP_Test"+fileName+".csv"))) {
+
+		    // CSV file delimiter
+		    String DELIMITER = ",";
+		    // read the file line by line
+		    String line1;
+		    while ((line1 = br.readLine()) != null) {
+		        // convert line into columns
+		        String[] columns = line1.split(DELIMITER);
+		        finalarray.add(columns[3]);
+			    finalarray.add(columns[4]);
+			    finalarray.add(columns[12]);
+			    finalarray.add(columns[13]);
+			    finalarray.add(columns[14]);
+		    }
+
+		} catch (IOException ex) {
+		    ex.printStackTrace();
+		}
+		
+		System.out.println((endTime - startTime) / 1000000);
+		return finalarray;		
+		
+	}
+	
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/getResponse")
+	public List<Object> httpGetResponse(@RequestParam(required = false, value = "server") String server) {
+		
+		BufferedReader reader;
+		String line;
+		StringBuffer responseContent = new StringBuffer();
+		
+		try {
+			String path = "http://"+server;
+			URL url = new URL(path);
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.setRequestMethod("GET");
+			connection.setConnectTimeout(5000);
+			connection.setReadTimeout(5000);
+			
+			int status = connection.getResponseCode();
+			if(status > 299) {
+				reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()));
+				while((line = reader.readLine()) != null) {
+					responseContent.append(line);
+				}
+				reader.close();
+			}
+			else {
+				reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+				while((line = reader.readLine()) != null) {
+					responseContent.append(line);
+				}
+				reader.close();
+			}
+			
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		List<Object> finalarray = new ArrayList<Object>();
+		String html = responseContent.toString();
+		org.jsoup.nodes.Document doc = Jsoup.parseBodyFragment(html);
+		finalarray.add(doc.body().html());
+		return finalarray;
+	
+	}
+	
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/getStats")
+	public List<String> httpGetStats()  {
+//		System.out.println(HTTPController.stats);
+		
+		List<String> finalarray = new ArrayList<String>();
+		finalarray.add(HTTPController.stats.get(2));
+	    finalarray.add(HTTPController.stats.get(6));
+	    finalarray.add(HTTPController.stats.get(8)+" ms");
+	    finalarray.add(HTTPController.stats.get(10)+" ms");
+        finalarray.add(HTTPController.stats.get(12)+" ms");
+		return finalarray;
+	}
+	
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/getPlans")
+	public List<String> getPlans() {
+		
+		List<String> finalarray = new ArrayList<String>();
+		File folder = new File("D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\testingFiles");
+		File[] listOfFiles = folder.listFiles();
+		
+		for (int i=0; i<listOfFiles.length; i++) {
+			if(listOfFiles[i].isFile()) {
+				finalarray.add(listOfFiles[i].getName());
+			}
+		}
+		//System.out.println(finalarray);
+		return finalarray;
+		
+	}
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping("/api/getPlansDetails")
+	public List<String> getPlansDetails(@RequestParam(required = false, value = "test") String test) {
+		
+		List<String> finalarray = new ArrayList<String>();
+		StringBuffer planContent = new StringBuffer();
+		try (BufferedReader br = Files.newBufferedReader(Paths.get("D:\\facultate\\Anul 5\\cercetare\\backend\\backend\\src\\main\\java\\com\\app\\backend\\testingFiles\\"+test))) {
+		    String line;
+		    while ((line = br.readLine()) != null) {
+		      planContent.append(line);
+		    }
+		} catch (IOException ex) {
+		    ex.printStackTrace();
+		}
+		
+		String html = planContent.toString();
+		org.jsoup.nodes.Document doc = Jsoup.parseBodyFragment(html);
+		finalarray.add(doc.body().html());
+		return finalarray;
+		
+	}
+	
+  
+	
+}

@@ -1,0 +1,83 @@
+{
+  "timestamp":1.646837375432E9,
+  "principal":null,
+  "session":null,
+  "request":{
+    "method":"GET",
+    "uri":"http://localhost:8080/api/http?users=7&ramp=1&loops=6&server=google.com&method=GET&port=443&path=/search&protocol=HTTPS&httpparam=%5B%22q%22,%22adele%22%5D",
+    "headers":{
+      "sec-fetch-mode":[
+        "cors"
+      ],
+      "referer":[
+        "http://localhost:4200/"
+      ],
+      "sec-fetch-site":[
+        "same-site"
+      ],
+      "accept-language":[
+        "en-US,en;q=0.9"
+      ],
+      "origin":[
+        "http://localhost:4200"
+      ],
+      "accept":[
+        "application/json, text/plain, */*"
+      ],
+      "sec-ch-ua":[
+        "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Opera\";v=\"84\""
+      ],
+      "sec-ch-ua-mobile":[
+        "?0"
+      ],
+      "sec-ch-ua-platform":[
+        "\"Windows\""
+      ],
+      "host":[
+        "localhost:8080"
+      ],
+      "connection":[
+        "keep-alive"
+      ],
+      "accept-encoding":[
+        "gzip, deflate, br"
+      ],
+      "sec-fetch-dest":[
+        "empty"
+      ],
+      "user-agent":[
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21"
+      ]
+    },
+    "remoteAddress":null
+  },
+  "response":{
+    "status":200,
+    "headers":{
+      "Keep-Alive":[
+        "timeout=60"
+      ],
+      "Transfer-Encoding":[
+        "chunked"
+      ],
+      "Access-Control-Allow-Origin":[
+        "http://localhost:4200"
+      ],
+      "Connection":[
+        "keep-alive"
+      ],
+      "Vary":[
+        "Origin",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "Date":[
+        "Wed, 09 Mar 2022 14:50:19 GMT"
+      ],
+      "Content-Type":[
+        "application/json"
+      ]
+    }
+  },
+  "timeTaken":43778
+} 

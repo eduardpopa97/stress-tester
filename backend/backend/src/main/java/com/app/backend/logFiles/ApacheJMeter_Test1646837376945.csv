@@ -1,0 +1,210 @@
+1646837404584,4146,HTTP Request,200,OK,Thread Group 1-4,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,1918,0,1725
+1646837404470,4298,HTTP Request,200,OK,Thread Group 1-2,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,2031,0,1838
+1646837404470,2051,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,909,129,7,7,https://google.com/search?q=adele,2031,0,1838
+1646837404728,4015,HTTP Request,200,OK,Thread Group 1-5,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,1774,0,1583
+1646837406531,498,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,498,0,307
+1646837404728,1794,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,909,129,7,7,https://google.com/search?q=adele,1774,0,1583
+1646837407032,444,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,444,0,300
+1646837404584,1938,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,909,129,7,7,https://google.com/search?q=adele,1918,0,1725
+1646837406540,545,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,545,0,345
+1646837407476,1292,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,228,0,0
+1646837406531,551,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,551,0,353
+1646837407086,424,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,424,0,277
+1646837404471,4223,HTTP Request,200,OK,Thread Group 1-3,text,true,,206509,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,2031,0,1840
+1646837407083,380,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,380,0,270
+1646837407510,1233,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,230,0,0
+1646837407463,1267,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,260,0,0
+1646837404471,2051,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,909,129,7,7,https://google.com/search?q=adele,2031,0,1840
+1646837406542,484,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,484,0,296
+1646837407030,433,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,433,0,333
+1646837407463,1231,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,203270,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,232,0,0
+1646837404870,3912,HTTP Request,200,OK,Thread Group 1-6,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,1633,0,1436
+1646837404870,1652,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,909,129,7,7,https://google.com/search?q=adele,1633,0,1436
+1646837406531,555,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,555,0,357
+1646837407088,421,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,421,0,265
+1646837407509,1273,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,244,0,0
+1646837405012,3778,HTTP Request,200,OK,Thread Group 1-7,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,1490,0,1297
+1646837405012,1510,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,909,129,7,7,https://google.com/search?q=adele,1490,0,1297
+1646837406541,541,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,541,0,346
+1646837407083,336,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,336,0,248
+1646837407419,1371,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,284,0,0
+1646837404470,4335,HTTP Request,200,OK,Thread Group 1-1,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,2031,0,1838
+1646837404470,2051,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,909,129,7,7,https://google.com/search?q=adele,2031,0,1838
+1646837406534,516,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,516,0,325
+1646837407053,415,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,415,0,323
+1646837407469,1336,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,253,0,0
+1646837408777,1666,HTTP Request,200,OK,Thread Group 1-5,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,77,0,0
+1646837408777,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,909,129,7,7,https://google.com/search?q=adele,77,0,0
+1646837408854,200,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,199,0,0
+1646837409054,110,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,110,0,0
+1646837409164,1279,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,524,0,0
+1646837408790,1812,HTTP Request,200,OK,Thread Group 1-7,text,true,,206335,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,73,0,0
+1646837408790,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,909,129,7,7,https://google.com/search?q=adele,73,0,0
+1646837408864,197,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,196,0,0
+1646837409061,107,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,107,0,0
+1646837409168,1434,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,203261,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,521,0,0
+1646837408777,1846,HTTP Request,200,OK,Thread Group 1-3,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,74,0,0
+1646837408777,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,909,129,7,7,https://google.com/search?q=adele,74,0,0
+1646837408851,188,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,188,0,0
+1646837409039,85,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,85,0,0
+1646837409124,1499,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,552,0,0
+1646837408777,1865,HTTP Request,200,OK,Thread Group 1-4,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,72,0,0
+1646837408777,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,909,129,7,7,https://google.com/search?q=adele,72,0,0
+1646837408850,189,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,189,0,0
+1646837409039,132,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,132,0,0
+1646837409171,1471,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,501,0,0
+1646837408777,1920,HTTP Request,200,OK,Thread Group 1-2,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,73,0,0
+1646837408777,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,909,129,7,7,https://google.com/search?q=adele,73,0,0
+1646837408850,190,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,190,0,0
+1646837409041,125,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,125,0,0
+1646837409167,1530,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,502,0,0
+1646837408805,1928,HTTP Request,200,OK,Thread Group 1-1,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,73,0,0
+1646837408805,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,909,129,7,7,https://google.com/search?q=adele,73,0,0
+1646837408879,186,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,186,0,0
+1646837409066,95,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,95,0,0
+1646837409161,1572,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,537,0,0
+1646837408782,2133,HTTP Request,200,OK,Thread Group 1-6,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,90,0,0
+1646837408782,90,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,909,129,7,7,https://google.com/search?q=adele,90,0,0
+1646837408872,774,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,774,0,0
+1646837409647,103,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,103,0,0
+1646837409750,1165,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,240,0,0
+1646837410444,1775,HTTP Request,200,OK,Thread Group 1-5,text,true,,206335,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,77,0,0
+1646837410444,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,909,129,7,7,https://google.com/search?q=adele,77,0,0
+1646837410521,198,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,198,0,0
+1646837410720,108,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,108,0,0
+1646837410829,1390,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,203261,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,516,0,0
+1646837410623,1776,HTTP Request,200,OK,Thread Group 1-3,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,75,0,0
+1646837410623,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,909,129,7,7,https://google.com/search?q=adele,75,0,0
+1646837410698,192,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,192,0,0
+1646837410891,119,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,119,0,0
+1646837411010,1389,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,506,0,0
+1646837410643,1856,HTTP Request,200,OK,Thread Group 1-4,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,71,0,0
+1646837410643,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,909,129,7,7,https://google.com/search?q=adele,71,0,0
+1646837410714,193,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,193,0,0
+1646837410907,95,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,95,0,0
+1646837411003,1496,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,537,0,0
+1646837410697,1835,HTTP Request,200,OK,Thread Group 1-2,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,75,0,0
+1646837410697,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,909,129,7,7,https://google.com/search?q=adele,75,0,0
+1646837410772,188,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,188,0,0
+1646837410960,82,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,82,0,0
+1646837411042,1490,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,545,0,0
+1646837410734,1820,HTTP Request,200,OK,Thread Group 1-1,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,70,0,0
+1646837410734,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,909,129,7,7,https://google.com/search?q=adele,70,0,0
+1646837410805,190,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,189,0,0
+1646837410995,88,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,88,0,0
+1646837411084,1470,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,545,0,0
+1646837410915,1805,HTTP Request,200,OK,Thread Group 1-6,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,70,0,0
+1646837410915,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,909,129,7,7,https://google.com/search?q=adele,70,0,0
+1646837410986,195,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,194,0,0
+1646837411181,88,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,88,0,0
+1646837411269,1451,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,544,0,0
+1646837410602,2119,HTTP Request,200,OK,Thread Group 1-7,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,80,0,0
+1646837410602,80,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,909,129,7,7,https://google.com/search?q=adele,80,0,0
+1646837410682,189,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,189,0,0
+1646837410872,93,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,93,0,0
+1646837410965,1756,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,534,0,0
+1646837412220,1693,HTTP Request,200,OK,Thread Group 1-5,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,85,0,0
+1646837412220,85,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,909,129,7,7,https://google.com/search?q=adele,85,0,0
+1646837412306,191,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,191,0,0
+1646837412498,85,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,85,0,0
+1646837412583,1330,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,541,0,0
+1646837412400,1901,HTTP Request,200,OK,Thread Group 1-3,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,75,0,0
+1646837412400,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,909,129,7,7,https://google.com/search?q=adele,75,0,0
+1646837412475,194,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,194,0,0
+1646837412669,102,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,102,0,0
+1646837412771,1530,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,543,0,0
+1646837412532,1824,HTTP Request,200,OK,Thread Group 1-2,text,true,,206335,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,72,0,0
+1646837412532,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,909,129,7,7,https://google.com/search?q=adele,72,0,0
+1646837412604,473,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,473,0,0
+1646837413078,93,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,93,0,0
+1646837413172,1184,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,203261,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,395,0,0
+1646837412501,1866,HTTP Request,200,OK,Thread Group 1-4,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,86,0,0
+1646837412501,86,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,909,129,7,7,https://google.com/search?q=adele,86,0,0
+1646837412587,193,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,193,0,0
+1646837412780,100,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,100,0,0
+1646837412880,1487,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,523,0,0
+1646837412722,1788,HTTP Request,200,OK,Thread Group 1-7,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,72,0,0
+1646837412722,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,909,129,7,7,https://google.com/search?q=adele,72,0,0
+1646837412795,195,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,195,0,0
+1646837412991,79,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,79,0,0
+1646837413070,1440,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,544,0,0
+1646837412555,1993,HTTP Request,200,OK,Thread Group 1-1,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,76,0,0
+1646837412555,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,909,129,7,7,https://google.com/search?q=adele,76,0,0
+1646837412632,189,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,189,0,0
+1646837412821,102,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,102,0,0
+1646837412924,1624,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,537,0,0
+1646837412721,2117,HTTP Request,200,OK,Thread Group 1-6,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,74,0,0
+1646837412721,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,909,129,7,7,https://google.com/search?q=adele,74,0,0
+1646837412796,440,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,440,0,0
+1646837413237,91,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646837413328,1510,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,522,0,0
+1646837413914,1908,HTTP Request,200,OK,Thread Group 1-5,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,75,0,0
+1646837413914,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,909,129,7,7,https://google.com/search?q=adele,75,0,0
+1646837413990,192,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,192,0,0
+1646837414182,97,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,97,0,0
+1646837414280,1542,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,544,0,0
+1646837414368,1808,HTTP Request,200,OK,Thread Group 1-4,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,70,0,0
+1646837414368,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,909,129,7,7,https://google.com/search?q=adele,70,0,0
+1646837414439,189,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,189,0,0
+1646837414628,117,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,117,0,0
+1646837414746,1430,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,514,0,0
+1646837414302,1921,HTTP Request,200,OK,Thread Group 1-3,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,81,0,0
+1646837414302,81,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,909,129,7,7,https://google.com/search?q=adele,81,0,0
+1646837414384,186,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,186,0,0
+1646837414570,86,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,86,0,0
+1646837414657,1566,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,546,0,0
+1646837414512,1826,HTTP Request,200,OK,Thread Group 1-7,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,74,0,0
+1646837414512,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,909,129,7,7,https://google.com/search?q=adele,74,0,0
+1646837414587,199,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,198,0,0
+1646837414786,94,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,94,0,0
+1646837414881,1457,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,530,0,0
+1646837414357,1982,HTTP Request,200,OK,Thread Group 1-2,text,true,,206339,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,71,0,0
+1646837414357,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,909,129,7,7,https://google.com/search?q=adele,71,0,0
+1646837414428,189,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,189,0,0
+1646837414618,84,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,84,0,0
+1646837414703,1636,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,680,0,0
+1646837414549,1819,HTTP Request,200,OK,Thread Group 1-1,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,72,0,0
+1646837414549,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,909,129,7,7,https://google.com/search?q=adele,72,0,0
+1646837414622,199,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,199,0,0
+1646837414821,106,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,106,0,0
+1646837414927,1441,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,522,0,0
+1646837414840,1839,HTTP Request,200,OK,Thread Group 1-6,text,true,,206504,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,70,0,0
+1646837414840,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,909,129,7,7,https://google.com/search?q=adele,70,0,0
+1646837414911,199,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,199,0,0
+1646837415111,90,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1326,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,90,0,0
+1646837415202,1477,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,203265,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,537,0,0
+1646837415822,1858,HTTP Request,200,OK,Thread Group 1-5,text,true,,206338,608,7,7,https://www.google.com/search?q=adele&ucbcb=1,89,0,0
+1646837415822,89,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,909,129,7,7,https://google.com/search?q=adele,89,0,0
+1646837415911,196,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1004,133,7,7,https://www.google.com/search?q=adele,196,0,0
+1646837416108,92,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1161,205,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,92,0,0
+1646837416200,1480,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,203264,141,7,7,https://www.google.com/search?q=adele&ucbcb=1,528,0,0
+1646837416176,1787,HTTP Request,200,OK,Thread Group 1-4,text,true,,206486,608,6,6,https://www.google.com/search?q=adele&ucbcb=1,73,0,0
+1646837416176,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,909,129,6,6,https://google.com/search?q=adele,73,0,0
+1646837416250,191,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1004,133,6,6,https://www.google.com/search?q=adele,191,0,0
+1646837416442,94,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1326,205,6,6,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,94,0,0
+1646837416536,1427,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,203247,141,6,6,https://www.google.com/search?q=adele&ucbcb=1,533,0,0
+1646837416339,1772,HTTP Request,200,OK,Thread Group 1-2,text,true,,206504,608,5,5,https://www.google.com/search?q=adele&ucbcb=1,77,0,0
+1646837416339,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,909,129,5,5,https://google.com/search?q=adele,77,0,0
+1646837416416,187,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1004,133,5,5,https://www.google.com/search?q=adele,187,0,0
+1646837416603,86,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1326,205,5,5,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,86,0,0
+1646837416690,1421,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,203265,141,5,5,https://www.google.com/search?q=adele&ucbcb=1,544,0,0
+1646837416368,1804,HTTP Request,200,OK,Thread Group 1-1,text,true,,206339,608,4,4,https://www.google.com/search?q=adele&ucbcb=1,70,0,0
+1646837416368,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,909,129,4,4,https://google.com/search?q=adele,70,0,0
+1646837416438,192,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1004,133,4,4,https://www.google.com/search?q=adele,192,0,0
+1646837416631,106,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1161,205,4,4,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,106,0,0
+1646837416737,1435,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,203265,141,4,4,https://www.google.com/search?q=adele&ucbcb=1,533,0,0
+1646837416339,1867,HTTP Request,200,OK,Thread Group 1-7,text,true,,206348,608,3,3,https://www.google.com/search?q=adele&ucbcb=1,78,0,0
+1646837416339,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,909,129,3,3,https://google.com/search?q=adele,78,0,0
+1646837416417,194,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1004,133,3,3,https://www.google.com/search?q=adele,194,0,0
+1646837416611,130,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1161,205,3,3,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,130,0,0
+1646837416741,1465,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,203274,141,3,3,https://www.google.com/search?q=adele&ucbcb=1,496,0,0
+1646837416223,1998,HTTP Request,200,OK,Thread Group 1-3,text,true,,206339,608,2,2,https://www.google.com/search?q=adele&ucbcb=1,74,0,0
+1646837416223,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,909,129,2,2,https://google.com/search?q=adele,74,0,0
+1646837416298,186,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1004,133,2,2,https://www.google.com/search?q=adele,186,0,0
+1646837416484,110,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1161,205,2,2,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,110,0,0
+1646837416595,1626,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,203265,141,2,2,https://www.google.com/search?q=adele&ucbcb=1,518,0,0
+1646837416680,1797,HTTP Request,200,OK,Thread Group 1-6,text,true,,206500,608,1,1,https://www.google.com/search?q=adele&ucbcb=1,74,0,0
+1646837416680,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,909,129,1,1,https://google.com/search?q=adele,74,0,0
+1646837416754,192,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1004,133,1,1,https://www.google.com/search?q=adele,192,0,0
+1646837416946,84,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1326,205,1,1,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dadele&gl=RO&m=0&pc=srp&hl=ro&src=1,84,0,0
+1646837417031,1446,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,203261,141,1,1,https://www.google.com/search?q=adele&ucbcb=1,546,0,0

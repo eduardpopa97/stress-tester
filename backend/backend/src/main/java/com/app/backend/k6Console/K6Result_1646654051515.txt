@@ -1,0 +1,50 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/   
+     /\  /  \     |  |/  /   /  /    
+    /  \/    \    |     (   /   ‾‾\  
+   /          \   |  |\  \ |  (‾)  | 
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: D:\facultate\Anul 5\cercetare\backend\backend\src\main\java\com\app\backend\k6Files\K6Test_1646654051515.js
+     output: -
+
+  scenarios: (100.00%) 1 scenario, 7 max VUs, 35s max duration (incl. graceful stop):
+           * default: Up to 7 looping VUs for 5s over 2 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (01.0s), 3/7 VUs, 0 complete and 0 interrupted iterations
+default   [  20% ] 3/7 VUs  1.0s/5.0s
+
+running (02.0s), 5/7 VUs, 1 complete and 0 interrupted iterations
+default   [  40% ] 5/7 VUs  2.0s/5.0s
+
+running (03.0s), 5/7 VUs, 4 complete and 0 interrupted iterations
+default   [  60% ] 5/7 VUs  3.0s/5.0s
+
+running (04.0s), 6/7 VUs, 8 complete and 0 interrupted iterations
+default   [  80% ] 6/7 VUs  4.0s/5.0s
+
+running (05.0s), 6/7 VUs, 13 complete and 0 interrupted iterations
+default   [ 100% ] 6/7 VUs  5.0s/5.0s
+
+running (05.9s), 0/7 VUs, 19 complete and 0 interrupted iterations
+default ↓ [ 100% ] 7/7 VUs  5s
+
+     data_received..................: 49 kB  8.2 kB/s
+     data_sent......................: 4.9 kB 820 B/s
+     http_req_blocked...............: avg=134.75ms min=0s       med=0s       max=657.85ms p(90)=386.15ms p(95)=443.42ms
+     http_req_connecting............: avg=39.55ms  min=0s       med=0s       max=134.36ms p(90)=124.31ms p(95)=134.26ms
+     http_req_duration..............: avg=142.14ms min=127.77ms med=131.13ms max=212.42ms p(90)=176.33ms p(95)=197.47ms
+       { expected_response:true }...: avg=142.14ms min=127.77ms med=131.13ms max=212.42ms p(90)=176.33ms p(95)=197.47ms
+     http_req_failed................: 0.00%  ✓ 0        ✗ 19 
+     http_req_receiving.............: avg=222.41µs min=0s       med=0s       max=1.05ms   p(90)=790.33µs p(95)=1ms     
+     http_req_sending...............: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+     http_req_tls_handshaking.......: avg=84.17ms  min=0s       med=0s       max=314.35ms p(90)=263.56ms p(95)=287.9ms 
+     http_req_waiting...............: avg=141.92ms min=127.77ms med=130.58ms max=211.42ms p(90)=176.33ms p(95)=197.37ms
+     http_reqs......................: 19     3.195864/s
+     iteration_duration.............: avg=1.28s    min=1.13s    med=1.14s    max=1.81s    p(90)=1.55s    p(95)=1.6s    
+     iterations.....................: 19     3.195864/s
+     vus............................: 7      min=2      max=7
+     vus_max........................: 7      min=7      max=7
+

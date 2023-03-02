@@ -1,0 +1,175 @@
+1646835371306,3003,HTTP Request,200,OK,Thread Group 1-2,text,true,,220120,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,1142,0,1043
+1646835371306,1150,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,1142,0,1043
+1646835372464,472,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,472,0,277
+1646835372938,432,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,432,0,299
+1646835373370,939,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,216978,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,236,0,0
+1646835371732,2589,HTTP Request,200,OK,Thread Group 1-3,text,true,,220117,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,716,0,616
+1646835371732,724,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,716,0,616
+1646835372463,477,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,474,0,269
+1646835372942,430,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,430,0,298
+1646835373373,948,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,216975,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,238,0,0
+1646835370990,3338,HTTP Request,200,OK,Thread Group 1-1,text,true,,220023,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,1457,0,1355
+1646835370990,1465,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,1457,0,1355
+1646835372160,2168,HTTP Request,200,OK,Thread Group 1-4,text,true,,220185,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,289,0,189
+1646835372463,480,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,480,0,284
+1646835372160,296,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,289,0,189
+1646835372944,433,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,433,0,287
+1646835372464,495,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,495,0,300
+1646835373378,950,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,216881,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,241,0,0
+1646835372960,392,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,392,0,276
+1646835373352,976,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,216878,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,233,0,0
+1646835372588,1981,HTTP Request,200,OK,Thread Group 1-5,text,true,,220120,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,244,0,170
+1646835372588,244,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,244,0,170
+1646835372835,371,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,371,0,181
+1646835373207,276,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,276,0,186
+1646835373483,1086,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,216978,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,349,0,0
+1646835373018,2363,HTTP Request,200,OK,Thread Group 1-6,text,true,,227701,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,244,0,174
+1646835373018,244,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,244,0,174
+1646835373263,889,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,889,0,172
+1646835374153,279,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,279,0,194
+1646835374433,948,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,224559,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,223,0,0
+1646835373446,2052,HTTP Request,200,OK,Thread Group 1-7,text,true,,220285,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,247,0,173
+1646835373446,247,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,247,0,173
+1646835373695,395,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,395,0,199
+1646835374091,286,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,286,0,174
+1646835374377,1121,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,216978,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,373,0,0
+1646835374320,1342,HTTP Request,200,OK,Thread Group 1-2,text,true,,220023,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,81,0,0
+1646835374320,81,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,81,0,0
+1646835374401,184,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,183,0,0
+1646835374585,89,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,89,0,0
+1646835374675,987,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,216881,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,229,0,0
+1646835374329,1731,HTTP Request,200,OK,Thread Group 1-1,text,true,,220115,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,72,0,0
+1646835374329,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,72,0,0
+1646835374401,196,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,196,0,0
+1646835374598,111,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,111,0,0
+1646835374709,1351,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,216973,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,527,0,0
+1646835374572,1500,HTTP Request,200,OK,Thread Group 1-5,text,true,,227589,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,100,0,0
+1646835374572,100,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,100,0,0
+1646835374673,187,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,187,0,0
+1646835374861,96,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,96,0,0
+1646835374958,1114,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,224447,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,235,0,0
+1646835374322,1802,HTTP Request,200,OK,Thread Group 1-3,text,true,,220120,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,80,0,0
+1646835374322,80,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,80,0,0
+1646835374402,192,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,192,0,0
+1646835374595,117,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,117,0,0
+1646835374713,1411,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,216978,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,511,0,0
+1646835374329,1857,HTTP Request,200,OK,Thread Group 1-4,text,true,,227769,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,80,0,0
+1646835374329,80,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,80,0,0
+1646835374409,735,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,735,0,0
+1646835375144,107,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,107,0,0
+1646835375252,934,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,224462,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,218,0,0
+1646835375383,1529,HTTP Request,200,OK,Thread Group 1-6,text,true,,227694,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,73,0,0
+1646835375383,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,73,0,0
+1646835375456,182,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,182,0,0
+1646835375638,88,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,88,0,0
+1646835375727,1185,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,224552,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,488,0,0
+1646835375499,1604,HTTP Request,200,OK,Thread Group 1-7,text,true,,220120,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,71,0,0
+1646835375499,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,71,0,0
+1646835375570,203,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,203,0,0
+1646835375773,101,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,101,0,0
+1646835375874,1229,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,216978,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,526,0,0
+1646835375663,1640,HTTP Request,200,OK,Thread Group 1-2,text,true,,205806,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,75,0,0
+1646835375663,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,75,0,0
+1646835375738,192,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,192,0,0
+1646835375930,91,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646835376022,1281,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,202499,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,554,0,0
+1646835376073,1409,HTTP Request,200,OK,Thread Group 1-5,text,true,,227604,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,71,0,0
+1646835376073,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,71,0,0
+1646835376144,191,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,191,0,0
+1646835376336,129,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,129,0,0
+1646835376466,1016,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,224462,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,333,0,0
+1646835376061,1615,HTTP Request,200,OK,Thread Group 1-1,text,true,,228517,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,78,0,0
+1646835376061,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,78,0,0
+1646835376139,194,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,194,0,0
+1646835376333,93,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,93,0,0
+1646835376427,1249,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,225210,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,532,0,0
+1646835376125,1617,HTTP Request,200,OK,Thread Group 1-3,text,true,,220120,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,80,0,0
+1646835376125,80,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,80,0,0
+1646835376205,187,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,187,0,0
+1646835376393,92,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,92,0,0
+1646835376485,1257,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,216978,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,530,0,0
+1646835376187,1587,HTTP Request,200,OK,Thread Group 1-4,text,true,,227701,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,74,0,0
+1646835376187,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,74,0,0
+1646835376261,183,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,183,0,0
+1646835376445,86,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,86,0,0
+1646835376531,1243,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,224559,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,503,0,0
+1646835376913,1272,HTTP Request,200,OK,Thread Group 1-6,text,true,,227866,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,73,0,0
+1646835376913,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,73,0,0
+1646835376987,203,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,203,0,0
+1646835377191,106,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,106,0,0
+1646835377298,887,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,224559,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,231,0,0
+1646835377104,1783,HTTP Request,200,OK,Thread Group 1-7,text,true,,220188,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,72,0,0
+1646835377104,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,72,0,0
+1646835377176,201,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,201,0,0
+1646835377377,93,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,93,0,0
+1646835377470,1417,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,216881,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,540,0,0
+1646835377483,1695,HTTP Request,200,OK,Thread Group 1-5,text,true,,227865,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,239,0,0
+1646835377483,239,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,239,0,0
+1646835377722,176,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,176,0,0
+1646835377899,88,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,88,0,0
+1646835377988,1190,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,224558,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,501,0,0
+1646835377677,1631,HTTP Request,200,OK,Thread Group 1-1,text,true,,220023,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,84,0,0
+1646835377677,84,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,84,0,0
+1646835377762,189,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,189,0,0
+1646835377952,100,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,100,0,0
+1646835378052,1256,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,216881,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,537,0,0
+1646835377743,1638,HTTP Request,200,OK,Thread Group 1-3,text,true,,220115,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,75,0,0
+1646835377743,75,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,75,0,0
+1646835377818,189,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,189,0,0
+1646835378008,96,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,95,0,0
+1646835378104,1277,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,216973,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,555,0,0
+1646835377304,2088,HTTP Request,200,OK,Thread Group 1-2,text,true,,227865,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,84,0,0
+1646835377304,84,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,84,0,0
+1646835377389,187,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,187,0,0
+1646835377576,94,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1338,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,94,0,0
+1646835377670,1722,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,224558,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,761,0,0
+1646835377775,1692,HTTP Request,200,OK,Thread Group 1-4,text,true,,227578,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,84,0,0
+1646835377775,84,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,84,0,0
+1646835377859,186,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,185,0,0
+1646835378045,106,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,106,0,0
+1646835378152,1315,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,224436,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,472,0,0
+1646835378187,1530,HTTP Request,200,OK,Thread Group 1-6,text,true,,227604,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,79,0,0
+1646835378187,79,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,79,0,0
+1646835378267,181,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,181,0,0
+1646835378449,91,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646835378540,1177,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,224462,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,500,0,0
+1646835379181,1549,HTTP Request,200,OK,Thread Group 1-5,text,true,,227701,660,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,76,0,0
+1646835379181,76,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,933,141,7,7,https://google.com/search?q=indian+wells+2022,76,0,0
+1646835379257,185,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1036,145,7,7,https://www.google.com/search?q=indian+wells+2022,185,0,0
+1646835379442,87,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1173,221,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,87,0,0
+1646835379529,1201,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,224559,153,7,7,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,495,0,0
+1646835378889,1859,HTTP Request,200,OK,Thread Group 1-7,text,true,,227866,660,6,6,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,80,0,0
+1646835378889,80,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,933,141,6,6,https://google.com/search?q=indian+wells+2022,80,0,0
+1646835378970,719,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1036,145,6,6,https://www.google.com/search?q=indian+wells+2022,719,0,0
+1646835379689,96,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1338,221,6,6,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,96,0,0
+1646835379785,963,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,224559,153,6,6,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,222,0,0
+1646835379392,1553,HTTP Request,200,OK,Thread Group 1-2,text,true,,227701,660,6,6,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,79,0,0
+1646835379392,79,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,933,141,6,6,https://google.com/search?q=indian+wells+2022,79,0,0
+1646835379472,179,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1036,145,6,6,https://www.google.com/search?q=indian+wells+2022,179,0,0
+1646835379651,91,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1173,221,6,6,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646835379742,1203,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,224559,153,6,6,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,327,0,0
+1646835379469,1518,HTTP Request,200,OK,Thread Group 1-4,text,true,,227854,660,5,5,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,80,0,0
+1646835379469,80,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,933,141,5,5,https://google.com/search?q=indian+wells+2022,80,0,0
+1646835379549,179,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1036,145,5,5,https://www.google.com/search?q=indian+wells+2022,179,0,0
+1646835379728,96,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1338,221,5,5,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,96,0,0
+1646835379825,1162,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,224547,153,5,5,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,491,0,0
+1646835379309,1852,HTTP Request,200,OK,Thread Group 1-1,text,true,,227701,660,4,4,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,73,0,0
+1646835379309,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,933,141,4,4,https://google.com/search?q=indian+wells+2022,73,0,0
+1646835379382,730,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1036,145,4,4,https://www.google.com/search?q=indian+wells+2022,730,0,0
+1646835380113,92,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1173,221,4,4,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,92,0,0
+1646835380206,955,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,224559,153,4,4,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,225,0,0
+1646835379383,1795,HTTP Request,200,OK,Thread Group 1-3,text,true,,227769,660,3,3,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,78,0,0
+1646835379383,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,933,141,3,3,https://google.com/search?q=indian+wells+2022,78,0,0
+1646835379462,724,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1036,145,3,3,https://www.google.com/search?q=indian+wells+2022,724,0,0
+1646835380186,89,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1338,221,3,3,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,89,0,0
+1646835380275,903,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,224462,153,3,3,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,219,0,0
+1646835379719,1628,HTTP Request,200,OK,Thread Group 1-6,text,true,,227762,660,2,2,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,70,0,0
+1646835379719,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,933,141,2,2,https://google.com/search?q=indian+wells+2022,70,0,0
+1646835379789,182,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1036,145,2,2,https://www.google.com/search?q=indian+wells+2022,182,0,0
+1646835379971,93,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1338,221,2,2,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,93,0,0
+1646835380065,1282,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,224455,153,2,2,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,495,0,0
+1646835380748,1307,HTTP Request,200,OK,Thread Group 1-7,text,true,,227755,660,1,1,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,74,0,0
+1646835380748,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,933,141,1,1,https://google.com/search?q=indian+wells+2022,74,0,0
+1646835380823,180,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1036,145,1,1,https://www.google.com/search?q=indian+wells+2022,180,0,0
+1646835381003,85,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1338,221,1,1,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dindian%2Bwells%2B2022&gl=RO&m=0&pc=srp&hl=ro&src=1,85,0,0
+1646835381088,967,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,224448,153,1,1,https://www.google.com/search?q=indian+wells+2022&ucbcb=1,336,0,0

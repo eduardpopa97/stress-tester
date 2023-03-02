@@ -1,0 +1,536 @@
+<p>
+  <mat-toolbar color="primary">
+    <span>Web Stress Tester</span>
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+    &#10240;&#10240;
+    <a href="/k6"
+      ><button mat-raised-button color="accent">K6 Stress Testing</button></a
+    >
+  </mat-toolbar>
+</p>
+
+<ngx-alerts></ngx-alerts>
+
+<mat-tab-group mat-stretch-tabs>
+  <mat-tab label="Create test plan">
+    <br />
+    <br />
+    <mat-chip-list>
+      &#10240;&#10240;
+      <mat-chip color="primary" selected>Thread Group</mat-chip>
+    </mat-chip-list>
+    <br />
+
+    <div>
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Number of threads (users)</mat-label>
+        <input type="number" min="1" matInput name="users" id="users" #users />
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Ramp up period (seconds)</mat-label>
+        <input type="number" min="1" matInput name="ramp" id="ramp" #ramp />
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Number of loops</mat-label>
+        <input type="number" min="1" matInput name="loops" id="loops" #loops />
+      </mat-form-field>
+    </div>
+    <br />
+
+    <mat-chip-list>
+      &#10240;&#10240;
+      <mat-chip color="primary" selected>Select a testing plan</mat-chip>
+    </mat-chip-list>
+    <br />
+
+    <!-- <mat-tab-group mat-stretch-tabs> -->
+    <!-- <mat-tab label="HTTP Sampler"> -->
+    <br />
+    <br />
+    <div>
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Server name</mat-label>
+        <input matInput name="server" id="server" #server />
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>HTTP method</mat-label>
+        <mat-select name="method" id="method" #method>
+          <mat-option value="GET">GET</mat-option>
+          <mat-option value="POST">POST</mat-option>
+          <mat-option value="PUT">PUT</mat-option>
+          <mat-option value="DELETE">DELETE</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Port number</mat-label>
+        <input type="number" min="1" matInput name="port" id="port" #port />
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Path</mat-label>
+        <input matInput name="path" id="path" #path />
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <mat-form-field appearance="outline">
+        <mat-label>Protocol</mat-label>
+        <mat-select name="protocol" id="protocol" #protocol>
+          <mat-option value="HTTP">HTTP</mat-option>
+          <mat-option value="HTTPS">HTTPS</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      &#10240;&#10240;
+      <button
+        mat-raised-button
+        color="warn"
+        (click)="
+          onSendHTTPRequest(
+            users.value,
+            ramp.value,
+            loops.value,
+            server.value,
+            method.value,
+            port.value,
+            protocol.value,
+            path.value
+          )
+        "
+      >
+        Run analysis
+      </button>
+    </div>
+
+    <!-- tabel nou-->
+
+    <div>
+      <br />
+      &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+      &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+      &#10240;&#10240;&#10240;&#10240;&#10240;
+
+      <button mat-raised-button color="primary" (click)="addRows()">
+        Add HTTP Parameter
+      </button>
+
+      &#10240;&#10240;&#10240;&#10240;
+      <button mat-raised-button color="primary" (click)="removeSelectedRows()">
+        Remove HTTP Parameter
+      </button>
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <table
+      mat-table
+      #table
+      [dataSource]="dataSource"
+      class="mat-elevation-z8"
+      class="center"
+    >
+      <!-- Checkbox Column -->
+      <ng-container matColumnDef="select">
+        <mat-header-cell *matHeaderCellDef>
+          <mat-checkbox
+            (change)="$event ? masterToggle() : null"
+            [checked]="selection.hasValue() && isAllSelected()"
+            [indeterminate]="selection.hasValue() && !isAllSelected()"
+          >
+          </mat-checkbox>
+        </mat-header-cell>
+        <mat-cell *matCellDef="let row">
+          <mat-checkbox
+            (click)="$event.stopPropagation()"
+            (change)="$event ? selection.toggle(row) : null"
+            [checked]="selection.isSelected(row)"
+          >
+          </mat-checkbox>
+        </mat-cell>
+      </ng-container>
+
+      <!-- Position Column -->
+      <ng-container matColumnDef="key">
+        <mat-header-cell *matHeaderCellDef>
+          HTTP Parameter Name
+        </mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          <mat-form-field class="example-full-width">
+            <input matInput [(ngModel)]="element.key" value="" />
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="value">
+        <mat-header-cell *matHeaderCellDef>
+          HTTP Parameter Value
+        </mat-header-cell>
+        <mat-cell *matCellDef="let element">
+          <mat-form-field class="example-full-width">
+            <input matInput [(ngModel)]="element.value" value="" />
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row
+        *matRowDef="let row; columns: displayedColumns"
+        (click)="selection.toggle(row)"
+      >
+      </mat-row>
+    </table>
+    <!-- </mat-tab> -->
+
+    <!-- <mat-tab label="JDBC Sampler"> </mat-tab>
+        <mat-tab label="FTP Sampler"> </mat-tab>
+      </mat-tab-group> -->
+  </mat-tab>
+
+  <mat-tab label="View results">
+    <!-- <div *ngIf="this.displayResult">  -->
+    <div>
+      <br />
+
+      <mat-tab-group>
+        <div>
+          <mat-tab label="GUI format">
+            <div *ngIf="this.displayResult">
+              <br />
+              <br />
+              <mat-chip-list>
+                &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+                &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+                <mat-chip color="primary" selected
+                  >Latency Evolution Diagram</mat-chip
+                >
+              </mat-chip-list>
+              <br />
+              <br />
+              <div class="chartjs-block">
+                <canvas
+                  baseChart
+                  height="400"
+                  width="1250"
+                  [datasets]="lineChartData"
+                  [labels]="lineChartLabels"
+                  [options]="lineChartOptions"
+                  [colors]="lineChartColors"
+                  [legend]="lineChartLegend"
+                  [chartType]="lineChartType"
+                  [plugins]="lineChartPlugins"
+                >
+                </canvas>
+              </div>
+
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <br><br><br><br><br><br><br><br>
+
+              <mat-chip-list>
+                
+                <mat-chip
+                  color="primary"
+                  selected
+                  style="margin-top: -880px; margin-left: 600px"
+                  >Tests Statistics</mat-chip
+                >
+              </mat-chip-list>
+
+              <br>
+
+  
+              <table
+                mat-table
+                [dataSource]="dataSourceHTTP"
+                class="example-container-jmeter mat-elevation-z8"
+                style="
+                  margin-left: 260px;
+                  margin-top: -410px;
+                  margin-right: 20px;
+                  align-self: center;
+                "
+              >
+                <ng-container matColumnDef="responseCode">
+                  <th mat-header-cell *matHeaderCellDef>Response code</th>
+                  <td mat-cell *matCellDef="let element">
+                    {{ element.responseCode }}
+                  </td>
+                </ng-container>
+
+                <ng-container matColumnDef="responseMessage">
+                  <th mat-header-cell *matHeaderCellDef>Response message</th>
+                  <td mat-cell *matCellDef="let element">
+                    {{ element.responseMessage }}
+                  </td>
+                </ng-container>
+
+                <ng-container matColumnDef="sentBytes">
+                  <th mat-header-cell *matHeaderCellDef>Sent bytes</th>
+                  <td mat-cell *matCellDef="let element">
+                    {{ element.sentBytes }}
+                  </td>
+                </ng-container>
+
+                <ng-container matColumnDef="receivedBytes">
+                  <th mat-header-cell *matHeaderCellDef>Received bytes</th>
+                  <td mat-cell *matCellDef="let element">
+                    {{ element.receivedBytes }}
+                  </td>
+                </ng-container>
+
+                <ng-container matColumnDef="thread">
+                  <th mat-header-cell *matHeaderCellDef>Thread</th>
+                  <td mat-cell *matCellDef="let element">
+                    {{ element.thread }}
+                  </td>
+                </ng-container>
+
+                <ng-container matColumnDef="url">
+                  <th mat-header-cell *matHeaderCellDef>URL</th>
+                  <td mat-cell *matCellDef="let element">{{ element.url }}</td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumnsHTTP"></tr>
+                <tr
+                  mat-row
+                  *matRowDef="let row; columns: displayedColumnsHTTP"
+                ></tr>
+              </table>
+
+              <br />
+              <br />
+              <mat-chip-list>
+                &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+                <mat-chip color="primary" selected>HTTP Response</mat-chip>
+              </mat-chip-list>
+              <br />
+              <textarea
+                class="form-control"
+                disabled
+                style="
+                  height: 300px;
+                  width: 700px;
+                  margin-left: 20px;
+                  margin-right: 20px;
+                  white-space:pre-wrap;
+                "
+                >{{ this.response }}</textarea
+              >
+
+              <br /><br /><br />
+              <mat-chip-list>
+                <mat-chip
+                  color="primary"
+                  selected
+                  style="margin-top: -600px; margin-left: 800px"
+                  >Number of tests : {{ this.stats[0] }}</mat-chip
+                >
+                <mat-chip
+                  color="primary"
+                  selected
+                  style="margin-top: -500px; margin-left: 800px"
+                  >Throughput : {{ this.stats[1] }}</mat-chip
+                >
+                <mat-chip
+                  color="primary"
+                  selected
+                  style="margin-top: -400px; margin-left: 800px"
+                  >Average response time : {{ this.stats[2] }}</mat-chip
+                >
+                <mat-chip
+                  color="primary"
+                  selected
+                  style="margin-top: -300px; margin-left: 800px"
+                  >Minimum response time : {{ this.stats[3] }}</mat-chip
+                >
+                <mat-chip
+                  color="primary"
+                  selected
+                  style="margin-top: -200px; margin-left: 800px"
+                  >Maximum response time : {{ this.stats[4] }}</mat-chip
+                >
+              </mat-chip-list>
+            </div>
+
+            <div *ngIf="!this.displayResult">
+              <br />
+              <br />
+              <center>
+                <h2 style="color: #512da8">
+                  You have to run a test in order to visualise the results
+                </h2>
+              </center>
+            </div>
+          </mat-tab>
+        </div>
+
+        <mat-tab label="JSON format">
+          <div *ngIf="this.displayResult">
+            <br />
+
+            &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+            &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+            &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+            &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+            <mat-chip color="primary" selected
+              >Spring Boot Test Result</mat-chip
+            >
+            <br />
+            <br />
+
+            <textarea
+              class="form-control"
+              disabled
+              style="
+                height: 300px;
+                width: 1260px;
+                margin-left: 20px;
+                margin-right: 20px;
+              "
+              >{{ this.jsonSpring }}</textarea
+            >
+
+            <br />
+
+            <br />
+            <mat-chip-list>
+              &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+              <mat-chip color="primary" selected>HTTP Response</mat-chip>
+            </mat-chip-list>
+            <br />
+            <textarea
+              class="form-control"
+              disabled
+              style="
+                height: 300px;
+                width: 700px;
+                margin-left: 20px;
+                margin-right: 20px;
+                white-space:pre-wrap;
+              "
+              >{{ this.response }}</textarea
+            >
+
+            <br /><br /><br />
+            <mat-chip-list>
+              <mat-chip
+                color="primary"
+                selected
+                style="margin-top: -600px; margin-left: 800px"
+                >Number of tests : {{ this.stats[0] }}</mat-chip
+              >
+              <mat-chip
+                color="primary"
+                selected
+                style="margin-top: -500px; margin-left: 800px"
+                >Throughput : {{ this.stats[1] }}</mat-chip
+              >
+              <mat-chip
+                color="primary"
+                selected
+                style="margin-top: -400px; margin-left: 800px"
+                >Average response time : {{ this.stats[2] }}</mat-chip
+              >
+              <mat-chip
+                color="primary"
+                selected
+                style="margin-top: -300px; margin-left: 800px"
+                >Minimum response time : {{ this.stats[3] }}</mat-chip
+              >
+              <mat-chip
+                color="primary"
+                selected
+                style="margin-top: -200px; margin-left: 800px"
+                >Maximum response time : {{ this.stats[4] }}</mat-chip
+              >
+            </mat-chip-list>
+          </div>
+
+          <div *ngIf="!this.displayResult">
+            <br />
+            <br />
+            <center>
+              <h2 style="color: #512da8">
+                You have to run a test in order to visualise the results
+              </h2>
+            </center>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+
+      <!-- </mat-tab> -->
+
+      <mat-tab label="Search history">
+        <table
+          mat-table
+          [dataSource]="dataSourceLog"
+          class="example-container mat-elevation-z8"
+          style="
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding-left: 50px;
+          "
+        >
+          <ng-container matColumnDef="fileName">
+            <th mat-header-cell *matHeaderCellDef>Test plan file name</th>
+            <td mat-cell *matCellDef="let element">{{ element.fileName }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="primary">
+            <th mat-header-cell *matHeaderCellDef>Select file</th>
+            <td mat-cell *matCellDef="let element">
+              <mat-radio-button
+                (click)="primaryClick(element)"
+                [checked]="primaryContact.fileName == element.fileName"
+              ></mat-radio-button>
+            </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumnsLog"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumnsLog"></tr>
+        </table>
+
+        <br />
+        &#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+        <button mat-raised-button color="primary" (click)="onParseJMX()">
+          Parse selected file
+        </button>
+
+        <textarea
+          class="form-control"
+          disabled
+          style="
+            height: 400px;
+            width: 700px;
+            margin-left: 580px;
+            margin-top: -460px;
+            margin-right: 20px;
+            margin-bottom: 170px;
+          "
+          align="right"
+          >{{ this.plan }}</textarea
+        >
+      </mat-tab>
+
+      <!-- </mat-tab-group> -->
+    </div></mat-tab
+  ></mat-tab-group
+>

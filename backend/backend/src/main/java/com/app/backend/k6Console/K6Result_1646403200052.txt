@@ -1,0 +1,20 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/   
+     /\  /  \     |  |/  /   /  /    
+    /  \/    \    |     (   /   ‾‾\  
+   /          \   |  |\  \ |  (‾)  | 
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: D:\facultate\Anul 5\cercetare\backend\backend\src\main\java\com\app\backend\k6Files\K6Test_1646403200052.js
+     output: -
+
+  scenarios: (100.00%) 1 scenario, 2 max VUs, 30s max duration (incl. graceful stop):
+           * default: Up to 2 looping VUs for 2ms over 2 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (00.2s), 0/2 VUs, 0 complete and 0 interrupted iterations
+default ✓ [ 100% ] 0/2 VUs  2ms
+
+
+

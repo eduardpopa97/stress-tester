@@ -1,0 +1,140 @@
+1646837801744,3392,HTTP Request,200,OK,Thread Group 1-3,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,1530,0,1427
+1646837801744,1534,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,1530,0,1427
+1646837803282,495,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,495,0,300
+1646837803779,549,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,549,0,427
+1646837804328,808,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,222,0,0
+1646837801888,3270,HTTP Request,200,OK,Thread Group 1-4,text,true,,152385,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,1386,0,1291
+1646837801888,1390,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,1386,0,1291
+1646837803283,504,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,504,0,313
+1646837803789,534,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,534,0,414
+1646837804324,834,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,149116,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,234,0,0
+1646837802314,2852,HTTP Request,200,OK,Thread Group 1-7,text,true,,152391,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,960,0,856
+1646837802314,964,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,960,0,856
+1646837803284,515,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,514,0,323
+1646837803801,487,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,487,0,404
+1646837804288,878,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,234,0,0
+1646837802027,3194,HTTP Request,200,OK,Thread Group 1-5,text,true,,152391,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,1247,0,1152
+1646837802027,1251,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,1247,0,1152
+1646837803287,522,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,522,0,329
+1646837803811,567,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,567,0,411
+1646837804379,842,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,241,0,0
+1646837802173,3066,HTTP Request,200,OK,Thread Group 1-6,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,1101,0,997
+1646837802173,1105,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,1101,0,997
+1646837803286,515,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,515,0,321
+1646837803803,614,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,614,0,443
+1646837804418,821,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,227,0,0
+1646837801590,3653,HTTP Request,200,OK,Thread Group 1-1,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,1683,0,1588
+1646837801590,1687,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,1683,0,1588
+1646837803285,528,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,528,0,331
+1646837803815,598,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,598,0,431
+1646837804414,829,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,246,0,0
+1646837801603,3707,HTTP Request,200,OK,Thread Group 1-2,text,true,,152083,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,1671,0,1567
+1646837801603,1675,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,1671,0,1567
+1646837803283,510,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,510,0,322
+1646837803795,626,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,626,0,452
+1646837804421,889,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,148979,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,237,0,0
+1646837805159,1457,HTTP Request,200,OK,Thread Group 1-4,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,74,0,0
+1646837805159,74,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,74,0,0
+1646837805233,196,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,196,0,0
+1646837805429,164,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,164,0,0
+1646837805593,1023,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,468,0,0
+1646837805145,1481,HTTP Request,200,OK,Thread Group 1-3,text,true,,152220,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,79,0,0
+1646837805145,79,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,79,0,0
+1646837805224,203,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,203,0,0
+1646837805428,138,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,138,0,0
+1646837805566,1060,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,149116,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,482,0,0
+1646837805244,1432,HTTP Request,200,OK,Thread Group 1-1,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,76,0,0
+1646837805244,76,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,76,0,0
+1646837805320,218,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,218,0,0
+1646837805539,132,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,132,0,0
+1646837805671,1005,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,462,0,0
+1646837805167,1524,HTTP Request,200,OK,Thread Group 1-7,text,true,,152248,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,70,0,0
+1646837805167,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,70,0,0
+1646837805237,192,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,192,0,0
+1646837805429,109,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,109,0,0
+1646837805539,1152,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,148979,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,513,0,0
+1646837805240,1500,HTTP Request,200,OK,Thread Group 1-6,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,69,0,0
+1646837805240,69,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,69,0,0
+1646837805309,216,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,215,0,0
+1646837805527,143,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,143,0,0
+1646837805670,1070,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,472,0,0
+1646837805222,1525,HTTP Request,200,OK,Thread Group 1-5,text,true,,152385,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,77,0,0
+1646837805222,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,77,0,0
+1646837805299,211,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,211,0,0
+1646837805510,124,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,124,0,0
+1646837805634,1113,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,149116,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,491,0,0
+1646837805310,1573,HTTP Request,200,OK,Thread Group 1-2,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,81,0,0
+1646837805310,81,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,81,0,0
+1646837805391,225,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,225,0,0
+1646837805616,98,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,98,0,0
+1646837805714,1169,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,535,0,0
+1646837806627,1453,HTTP Request,200,OK,Thread Group 1-3,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,69,0,0
+1646837806627,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,69,0,0
+1646837806697,190,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,190,0,0
+1646837806887,132,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,132,0,0
+1646837807019,1061,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,505,0,0
+1646837806677,1473,HTTP Request,200,OK,Thread Group 1-1,text,true,,152399,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,77,0,0
+1646837806677,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,77,0,0
+1646837806754,195,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,195,0,0
+1646837806616,1534,HTTP Request,200,OK,Thread Group 1-4,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,77,0,0
+1646837806949,128,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,128,0,0
+1646837807078,1072,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,149130,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,500,0,0
+1646837806616,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,77,0,0
+1646837806693,194,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,194,0,0
+1646837806888,86,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,86,0,0
+1646837806975,1175,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,536,0,0
+1646837806692,1465,HTTP Request,200,OK,Thread Group 1-7,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,71,0,0
+1646837806692,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,71,0,0
+1646837806763,187,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,187,0,0
+1646837806951,91,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,91,0,0
+1646837807043,1114,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,557,0,0
+1646837806741,1427,HTTP Request,200,OK,Thread Group 1-6,text,true,,152391,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,68,0,0
+1646837806741,68,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,68,0,0
+1646837806809,190,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,190,0,0
+1646837806999,102,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,102,0,0
+1646837807102,1066,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,525,0,0
+1646837806748,1494,HTTP Request,200,OK,Thread Group 1-5,text,true,,152226,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,81,0,0
+1646837806748,81,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,81,0,0
+1646837806829,188,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,188,0,0
+1646837807017,147,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,147,0,0
+1646837807165,1077,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,494,0,0
+1646837806884,1537,HTTP Request,200,OK,Thread Group 1-2,text,true,,152083,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,70,0,0
+1646837806884,70,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,70,0,0
+1646837806955,192,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,192,0,0
+1646837807148,108,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1167,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,108,0,0
+1646837807256,1165,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,148979,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,518,0,0
+1646837808082,1445,HTTP Request,200,OK,Thread Group 1-3,text,true,,152391,632,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,78,0,0
+1646837808082,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,921,135,7,7,https://google.com/search?q=coronavirus,78,0,0
+1646837808160,184,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1016,139,7,7,https://www.google.com/search?q=coronavirus,184,0,0
+1646837808345,87,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1332,211,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,87,0,0
+1646837808432,1095,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,149122,147,7,7,https://www.google.com/search?q=coronavirus&ucbcb=1,545,0,0
+1646837808152,1457,HTTP Request,200,OK,Thread Group 1-4,text,true,,152226,632,6,6,https://www.google.com/search?q=coronavirus&ucbcb=1,76,0,0
+1646837808152,76,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,921,135,6,6,https://google.com/search?q=coronavirus,76,0,0
+1646837808228,184,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1016,139,6,6,https://www.google.com/search?q=coronavirus,184,0,0
+1646837808413,87,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1167,211,6,6,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,87,0,0
+1646837808500,1109,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,149122,147,6,6,https://www.google.com/search?q=coronavirus&ucbcb=1,563,0,0
+1646837808158,1456,HTTP Request,200,OK,Thread Group 1-7,text,true,,152234,632,5,5,https://www.google.com/search?q=coronavirus&ucbcb=1,72,0,0
+1646837808158,72,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,921,135,5,5,https://google.com/search?q=coronavirus,72,0,0
+1646837808230,188,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1016,139,5,5,https://www.google.com/search?q=coronavirus,188,0,0
+1646837808418,125,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1167,211,5,5,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,125,0,0
+1646837808543,1071,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,149130,147,5,5,https://www.google.com/search?q=coronavirus&ucbcb=1,506,0,0
+1646837808242,1476,HTTP Request,200,OK,Thread Group 1-5,text,true,,152391,632,4,4,https://www.google.com/search?q=coronavirus&ucbcb=1,77,0,0
+1646837808242,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,921,135,4,4,https://google.com/search?q=coronavirus,77,0,0
+1646837808319,190,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1016,139,4,4,https://www.google.com/search?q=coronavirus,190,0,0
+1646837808509,88,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1332,211,4,4,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,88,0,0
+1646837808598,1120,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,149122,147,4,4,https://www.google.com/search?q=coronavirus&ucbcb=1,545,0,0
+1646837808168,1575,HTTP Request,200,OK,Thread Group 1-6,text,true,,152391,632,3,3,https://www.google.com/search?q=coronavirus&ucbcb=1,68,0,0
+1646837808168,68,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,921,135,3,3,https://google.com/search?q=coronavirus,68,0,0
+1646837808237,186,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1016,139,3,3,https://www.google.com/search?q=coronavirus,186,0,0
+1646837808423,118,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1332,211,3,3,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,118,0,0
+1646837808541,1202,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,149122,147,3,3,https://www.google.com/search?q=coronavirus&ucbcb=1,527,0,0
+1646837808151,1676,HTTP Request,200,OK,Thread Group 1-1,text,true,,152067,632,2,2,https://www.google.com/search?q=coronavirus&ucbcb=1,89,0,0
+1646837808151,89,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,921,135,2,2,https://google.com/search?q=coronavirus,89,0,0
+1646837808241,192,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1016,139,2,2,https://www.google.com/search?q=coronavirus,192,0,0
+1646837808433,106,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1167,211,2,2,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,106,0,0
+1646837808539,1288,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,148963,147,2,2,https://www.google.com/search?q=coronavirus&ucbcb=1,556,0,0
+1646837808422,1479,HTTP Request,200,OK,Thread Group 1-2,text,true,,152226,632,1,1,https://www.google.com/search?q=coronavirus&ucbcb=1,72,0,0
+1646837808422,73,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,921,135,1,1,https://google.com/search?q=coronavirus,72,0,0
+1646837808495,192,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1016,139,1,1,https://www.google.com/search?q=coronavirus,192,0,0
+1646837808688,143,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1167,211,1,1,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dcoronavirus&gl=RO&m=0&pc=srp&hl=ro&src=1,143,0,0
+1646837808832,1069,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,149122,147,1,1,https://www.google.com/search?q=coronavirus&ucbcb=1,484,0,0

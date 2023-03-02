@@ -1,0 +1,5 @@
+1646747032531,943,HTTP Request,200,OK,Thread Group 1-2,text,true,,6724,184,3,3,https://jsonplaceholder.typicode.com/users/,856,0,775
+1646747033146,396,HTTP Request,200,OK,Thread Group 1-3,text,true,,6722,184,2,2,https://jsonplaceholder.typicode.com/users/,394,0,157
+1646747032085,1462,HTTP Request,200,OK,Thread Group 1-1,text,true,,6720,184,1,1,https://jsonplaceholder.typicode.com/users/,1461,0,1221
+1646747033729,216,HTTP Request,200,OK,Thread Group 1-4,text,true,,6718,184,1,1,https://jsonplaceholder.typicode.com/users/,214,0,145
+1646747034330,211,HTTP Request,200,OK,Thread Group 1-5,text,true,,6734,184,1,1,https://jsonplaceholder.typicode.com/users/,208,0,156

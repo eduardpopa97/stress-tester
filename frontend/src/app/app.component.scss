@@ -1,0 +1,26 @@
+table {
+    width: 50%;
+    justify-content:center;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .example-container {
+    height:410px;
+    width: 520px;
+    max-width: 100%;
+   // overflow: auto;
+    display: block;
+    overflow-y: scroll;
+  }
+
+  .mat-header-cell {
+    padding: 10px;
+  }
+
+  .mat-cell {
+    padding: 10px;
+  }
+  

@@ -1,0 +1,200 @@
+1654514752061,2034,HTTP Request,200,OK,Thread Group 1-6,text,true,,52640,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,598,0,542
+1654514752061,601,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,598,0,542
+1654514752665,468,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,467,0,265
+1654514753136,397,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,397,0,300
+1654514753533,562,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,48261,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,395,0,0
+1654514752313,1795,HTTP Request,200,OK,Thread Group 1-7,text,true,,54087,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,369,0,295
+1654514752313,369,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,369,0,295
+1654514752683,472,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,471,0,255
+1654514753158,450,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,450,0,288
+1654514753609,499,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,49872,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,318,0,0
+1654514750993,3120,HTTP Request,200,OK,Thread Group 1-1,text,true,,54251,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,1683,0,1609
+1654514750993,1683,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,1683,0,1609
+1654514752677,467,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,467,0,257
+1654514753151,379,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,379,0,272
+1654514753530,583,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,49872,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,394,0,0
+1654514751563,2555,HTTP Request,200,OK,Thread Group 1-4,text,true,,54149,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,1115,0,1051
+1654514751563,1115,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,1115,0,1051
+1654514752679,477,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,477,0,256
+1654514753160,371,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,371,0,275
+1654514753531,587,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,49935,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,393,0,0
+1654514752587,1549,HTTP Request,200,OK,Thread Group 1-8,text,true,,54313,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,163,0,122
+1654514752587,163,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,163,0,122
+1654514752751,382,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,381,0,184
+1654514753137,409,HTTP Request-2,303,See Other,Thread Group 1-8,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,409,0,309
+1654514753547,589,HTTP Request-3,200,OK,Thread Group 1-8,text,true,,49934,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,399,0,0
+1654514751813,2324,HTTP Request,200,OK,Thread Group 1-5,text,true,,51731,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,857,0,796
+1654514751813,857,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,857,0,796
+1654514752673,504,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,503,0,281
+1654514753182,341,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1045,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,341,0,253
+1654514753523,614,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,48261,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,423,0,0
+1654514751067,3077,HTTP Request,200,OK,Thread Group 1-2,text,true,,52474,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,1611,0,1544
+1654514751067,1611,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,1611,0,1544
+1654514752679,456,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,455,0,255
+1654514753144,346,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,346,0,273
+1654514753490,654,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,434,0,0
+1654514751315,2832,HTTP Request,200,OK,Thread Group 1-3,text,true,,54120,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,1360,0,1292
+1654514751315,1360,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,1360,0,1292
+1654514752675,475,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,475,0,259
+1654514753153,420,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,420,0,283
+1654514753573,574,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,49906,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,362,0,0
+1654514754137,1203,HTTP Request,200,OK,Thread Group 1-8,text,true,,54086,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,44,0,0
+1654514754137,44,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,44,0,0
+1654514754181,321,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,321,0,0
+1654514754502,83,HTTP Request-2,303,See Other,Thread Group 1-8,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,83,0,0
+1654514754585,755,HTTP Request-3,200,OK,Thread Group 1-8,text,true,,49871,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,588,0,0
+1654514754118,1234,HTTP Request,200,OK,Thread Group 1-4,text,true,,52474,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,61,0,0
+1654514754111,1241,HTTP Request,200,OK,Thread Group 1-7,text,true,,52639,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,65,0,0
+1654514754118,61,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,61,0,0
+1654514754111,66,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,65,0,0
+1654514754180,302,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,302,0,0
+1654514754177,379,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,379,0,0
+1654514754557,75,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,75,0,0
+1654514754115,1237,HTTP Request,200,OK,Thread Group 1-1,text,true,,52475,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,62,0,0
+1654514754632,720,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,530,0,0
+1654514754482,85,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,85,0,0
+1654514754567,785,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,602,0,0
+1654514754115,62,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,62,0,0
+1654514754177,299,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,298,0,0
+1654514754477,90,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,90,0,0
+1654514754568,784,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,598,0,0
+1654514754110,1252,HTTP Request,200,OK,Thread Group 1-6,text,true,,54251,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,66,0,0
+1654514754110,67,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,66,0,0
+1654514754177,326,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,325,0,0
+1654514754503,121,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,121,0,0
+1654514754624,738,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,49871,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,542,0,0
+1654514754146,1220,HTTP Request,200,OK,Thread Group 1-2,text,true,,54251,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,45,0,0
+1654514754146,45,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,45,0,0
+1654514754191,263,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,263,0,0
+1654514754456,70,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,70,0,0
+1654514754526,840,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,49871,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,654,0,0
+1654514754148,1220,HTTP Request,200,OK,Thread Group 1-3,text,true,,54085,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,41,0,0
+1654514754148,42,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,41,0,0
+1654514754190,334,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,333,0,0
+1654514754524,105,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,105,0,0
+1654514754630,738,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,49871,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,550,0,0
+1654514754139,1272,HTTP Request,200,OK,Thread Group 1-5,text,true,,52474,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,76,0,0
+1654514754139,76,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,76,0,0
+1654514754216,253,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,250,0,0
+1654514754470,106,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,106,0,0
+1654514754576,835,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,626,0,0
+1654514755363,1211,HTTP Request,200,OK,Thread Group 1-6,text,true,,52474,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,45,0,0
+1654514755363,45,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,45,0,0
+1654514755408,208,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,208,0,0
+1654514755616,109,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,109,0,0
+1654514755725,849,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,676,0,0
+1654514755355,1223,HTTP Request,200,OK,Thread Group 1-4,text,true,,54246,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,56,0,0
+1654514755355,56,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,56,0,0
+1654514755411,202,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,202,0,0
+1654514755613,165,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,165,0,0
+1654514755779,799,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,49867,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,634,0,0
+1654514755368,1223,HTTP Request,200,OK,Thread Group 1-3,text,true,,54086,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,43,0,0
+1654514755367,1224,HTTP Request,200,OK,Thread Group 1-2,text,true,,52640,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,45,0,0
+1654514755368,43,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,43,0,0
+1654514755367,45,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,45,0,0
+1654514755411,202,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,202,0,0
+1654514755414,202,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,202,0,0
+1654514755613,163,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,163,0,0
+1654514755616,102,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,102,0,0
+1654514755777,814,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,49872,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,627,0,0
+1654514755719,872,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,688,0,0
+1654514755341,1252,HTTP Request,200,OK,Thread Group 1-8,text,true,,54087,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,65,0,0
+1654514755341,65,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,65,0,0
+1654514755406,204,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,203,0,0
+1654514755610,121,HTTP Request-2,303,See Other,Thread Group 1-8,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,121,0,0
+1654514755731,862,HTTP Request-3,200,OK,Thread Group 1-8,text,true,,49872,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,669,0,0
+1654514755354,1242,HTTP Request,200,OK,Thread Group 1-7,text,true,,54313,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,53,0,0
+1654514755354,53,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,53,0,0
+1654514755407,206,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,206,0,0
+1654514755613,107,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,107,0,0
+1654514755720,876,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,49934,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,691,0,0
+1654514755358,1243,HTTP Request,200,OK,Thread Group 1-1,text,true,,52640,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,48,0,0
+1654514755358,49,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,48,0,0
+1654514755407,197,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,196,0,0
+1654514755605,74,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,74,0,0
+1654514755679,922,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,711,0,0
+1654514755411,1232,HTTP Request,200,OK,Thread Group 1-5,text,true,,54252,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,45,0,0
+1654514755411,45,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,45,0,0
+1654514755457,199,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,198,0,0
+1654514755656,82,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,82,0,0
+1654514755739,904,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,49872,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,713,0,0
+1654514756593,1199,HTTP Request,200,OK,Thread Group 1-2,text,true,,52644,629,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,51,0,0
+1654514756593,51,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,51,0,0
+1654514756644,202,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1517,135,8,8,https://www.google.com/search?q=aii+upb,201,0,0
+1654514756847,68,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1954,220,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=eomtse&hl=ro&src=1,68,0,0
+1654514756916,876,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,742,0,0
+1654514756598,1195,HTTP Request,200,OK,Thread Group 1-7,text,true,,52639,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,42,0,0
+1654514756598,42,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,42,0,0
+1654514756640,200,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,198,0,0
+1654514756841,174,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,174,0,0
+1654514757016,777,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,609,0,0
+1654514756595,1214,HTTP Request,200,OK,Thread Group 1-8,text,true,,54285,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,41,0,0
+1654514756595,41,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,41,0,0
+1654514756637,204,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,204,0,0
+1654514756842,98,HTTP Request-2,303,See Other,Thread Group 1-8,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,98,0,0
+1654514756940,869,HTTP Request-3,200,OK,Thread Group 1-8,text,true,,49905,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,721,0,0
+1654514756593,1231,HTTP Request,200,OK,Thread Group 1-3,text,true,,52475,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,42,0,0
+1654514756593,42,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,42,0,0
+1654514756635,200,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,200,0,0
+1654514756835,112,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,112,0,0
+1654514756947,877,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,48260,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,672,0,0
+1654514756644,1187,HTTP Request,200,OK,Thread Group 1-5,text,true,,54085,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,46,0,0
+1654514756644,46,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,46,0,0
+1654514756690,200,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,200,0,0
+1654514756890,76,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,76,0,0
+1654514756966,865,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,49871,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,723,0,0
+1654514756581,1275,HTTP Request,200,OK,Thread Group 1-4,text,true,,52475,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,60,0,0
+1654514756581,60,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,60,0,0
+1654514756641,200,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1512,135,8,8,https://www.google.com/search?q=aii+upb,200,0,0
+1654514756841,175,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,175,0,0
+1654514757017,839,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,48261,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,639,0,0
+1654514756603,1254,HTTP Request,200,OK,Thread Group 1-1,text,true,,52802,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,45,0,0
+1654514756603,45,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,45,0,0
+1654514756649,201,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,201,0,0
+1654514756851,103,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,103,0,0
+1654514756956,901,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,48422,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,710,0,0
+1654514756577,1313,HTTP Request,200,OK,Thread Group 1-6,text,true,,52476,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,52,0,0
+1654514756577,52,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,52,0,0
+1654514756629,201,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,201,0,0
+1654514756830,76,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1789,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,76,0,0
+1654514756907,983,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,48261,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,819,0,0
+1654514757793,1213,HTTP Request,200,OK,Thread Group 1-7,text,true,,54251,627,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,65,0,0
+1654514757793,65,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,913,131,8,8,https://google.com/search?q=aii+upb,65,0,0
+1654514757858,198,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,1513,135,8,8,https://www.google.com/search?q=aii+upb,198,0,0
+1654514758057,116,HTTP Request-2,303,See Other,Thread Group 1-7,text,true,,1954,218,8,8,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,116,0,0
+1654514758173,833,HTTP Request-3,200,OK,Thread Group 1-7,text,true,,49871,143,8,8,https://www.google.com/search?q=aii+upb&ucbcb=1,675,0,0
+1654514757810,1207,HTTP Request,200,OK,Thread Group 1-8,text,true,,54085,627,7,7,https://www.google.com/search?q=aii+upb&ucbcb=1,48,0,0
+1654514757810,48,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,913,131,7,7,https://google.com/search?q=aii+upb,48,0,0
+1654514757858,201,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,1512,135,7,7,https://www.google.com/search?q=aii+upb,201,0,0
+1654514758059,109,HTTP Request-2,303,See Other,Thread Group 1-8,text,true,,1789,218,7,7,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,109,0,0
+1654514758168,849,HTTP Request-3,200,OK,Thread Group 1-8,text,true,,49871,143,7,7,https://www.google.com/search?q=aii+upb&ucbcb=1,681,0,0
+1654514757793,1231,HTTP Request,200,OK,Thread Group 1-2,text,true,,54082,627,6,6,https://www.google.com/search?q=aii+upb&ucbcb=1,47,0,0
+1654514757793,47,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,913,131,6,6,https://google.com/search?q=aii+upb,47,0,0
+1654514757841,209,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,1513,135,6,6,https://www.google.com/search?q=aii+upb,209,0,0
+1654514758050,76,HTTP Request-2,303,See Other,Thread Group 1-2,text,true,,1789,218,6,6,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,76,0,0
+1654514758126,898,HTTP Request-3,200,OK,Thread Group 1-2,text,true,,49867,143,6,6,https://www.google.com/search?q=aii+upb&ucbcb=1,719,0,0
+1654514757858,1178,HTTP Request,200,OK,Thread Group 1-1,text,true,,54250,627,5,5,https://www.google.com/search?q=aii+upb&ucbcb=1,40,0,0
+1654514757858,40,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,913,131,5,5,https://google.com/search?q=aii+upb,40,0,0
+1654514757898,202,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,1512,135,5,5,https://www.google.com/search?q=aii+upb,201,0,0
+1654514758100,73,HTTP Request-2,303,See Other,Thread Group 1-1,text,true,,1954,218,5,5,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,73,0,0
+1654514758173,863,HTTP Request-3,200,OK,Thread Group 1-1,text,true,,49871,143,5,5,https://www.google.com/search?q=aii+upb&ucbcb=1,727,0,0
+1654514757825,1222,HTTP Request,200,OK,Thread Group 1-3,text,true,,54251,627,4,4,https://www.google.com/search?q=aii+upb&ucbcb=1,41,0,0
+1654514757825,41,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,913,131,4,4,https://google.com/search?q=aii+upb,41,0,0
+1654514757866,198,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,1512,135,4,4,https://www.google.com/search?q=aii+upb,198,0,0
+1654514758064,152,HTTP Request-2,303,See Other,Thread Group 1-3,text,true,,1954,218,4,4,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,152,0,0
+1654514758216,831,HTTP Request-3,200,OK,Thread Group 1-3,text,true,,49872,143,4,4,https://www.google.com/search?q=aii+upb&ucbcb=1,638,0,0
+1654514757832,1253,HTTP Request,200,OK,Thread Group 1-5,text,true,,54085,627,3,3,https://www.google.com/search?q=aii+upb&ucbcb=1,55,0,0
+1654514757832,55,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,913,131,3,3,https://google.com/search?q=aii+upb,55,0,0
+1654514757887,203,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,1512,135,3,3,https://www.google.com/search?q=aii+upb,202,0,0
+1654514758090,77,HTTP Request-2,303,See Other,Thread Group 1-5,text,true,,1789,218,3,3,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,77,0,0
+1654514758167,918,HTTP Request-3,200,OK,Thread Group 1-5,text,true,,49871,143,3,3,https://www.google.com/search?q=aii+upb&ucbcb=1,729,0,0
+1654514757857,1230,HTTP Request,200,OK,Thread Group 1-4,text,true,,54086,627,3,3,https://www.google.com/search?q=aii+upb&ucbcb=1,44,0,0
+1654514757857,44,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,913,131,3,3,https://google.com/search?q=aii+upb,44,0,0
+1654514757901,194,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,1513,135,3,3,https://www.google.com/search?q=aii+upb,194,0,0
+1654514758095,118,HTTP Request-2,303,See Other,Thread Group 1-4,text,true,,1789,218,3,3,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,118,0,0
+1654514758213,874,HTTP Request-3,200,OK,Thread Group 1-4,text,true,,49871,143,3,3,https://www.google.com/search?q=aii+upb&ucbcb=1,686,0,0
+1654514757891,1210,HTTP Request,200,OK,Thread Group 1-6,text,true,,52641,627,1,1,https://www.google.com/search?q=aii+upb&ucbcb=1,39,0,0
+1654514757891,39,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,913,131,1,1,https://google.com/search?q=aii+upb,39,0,0
+1654514757930,196,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,1513,135,1,1,https://www.google.com/search?q=aii+upb,196,0,0
+1654514758126,91,HTTP Request-2,303,See Other,Thread Group 1-6,text,true,,1954,218,1,1,https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Daii%2Bupb&gl=RO&m=0&pc=srp&uxe=none&hl=ro&src=1,91,0,0
+1654514758217,884,HTTP Request-3,200,OK,Thread Group 1-6,text,true,,48261,143,1,1,https://www.google.com/search?q=aii+upb&ucbcb=1,718,0,0

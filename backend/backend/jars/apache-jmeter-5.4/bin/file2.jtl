@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1615474362080,645,HTTP Request,200,OK,Thread Group 1-2,text,true,,15496,234,8,8,http://www.google.com/,382,0,308
+1615474362080,388,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,528,115,8,8,http://google.com/,382,0,308
+1615474362471,254,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,14968,119,8,8,http://www.google.com/,226,0,134
+1615474362431,302,HTTP Request,200,OK,Thread Group 1-6,text,true,,15435,234,9,9,http://www.google.com/,93,0,34
+1615474362431,93,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,528,115,9,9,http://google.com/,93,0,34
+1615474362525,208,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,14907,119,9,9,http://www.google.com/,173,0,78
+1615474362079,655,HTTP Request,200,OK,Thread Group 1-1,text,true,,15484,234,9,9,http://www.google.com/,382,0,309
+1615474362079,388,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,528,115,9,9,http://google.com/,382,0,309
+1615474362473,261,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,14956,119,9,9,http://www.google.com/,230,0,134
+1615474362135,609,HTTP Request,200,OK,Thread Group 1-3,text,true,,15420,234,9,9,http://www.google.com/,327,0,250
+1615474362135,332,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,528,115,9,9,http://google.com/,327,0,250
+1615474362474,270,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,14892,119,9,9,http://www.google.com/,227,0,134
+1615474362231,513,HTTP Request,200,OK,Thread Group 1-4,text,true,,15471,234,9,9,http://www.google.com/,231,0,157
+1615474362231,237,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,528,115,9,9,http://google.com/,231,0,157
+1615474362475,269,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,14943,119,9,9,http://www.google.com/,232,0,133
+1615474362331,413,HTTP Request,200,OK,Thread Group 1-5,text,true,,16222,234,9,9,http://www.google.com/,131,0,58
+1615474362331,136,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,528,115,9,9,http://google.com/,131,0,58
+1615474362472,272,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,15694,119,9,9,http://www.google.com/,237,0,137
+1615474362529,252,HTTP Request,200,OK,Thread Group 1-7,text,true,,15430,234,9,9,http://www.google.com/,95,0,31
+1615474362529,95,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,528,115,9,9,http://google.com/,95,0,31
+1615474362625,156,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,14902,119,9,9,http://www.google.com/,125,0,34
+1615474362630,289,HTTP Request,200,OK,Thread Group 1-8,text,true,,15483,234,10,10,http://www.google.com/,91,0,32
+1615474362630,92,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,528,115,10,10,http://google.com/,91,0,32
+1615474362722,197,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,14955,119,10,10,http://www.google.com/,129,0,37
+1615474362727,193,HTTP Request,200,OK,Thread Group 1-2,text,true,,15475,234,10,10,http://www.google.com/,59,0,0
+1615474362727,59,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,528,115,10,10,http://google.com/,59,0,0
+1615474362786,134,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,14947,119,10,10,http://www.google.com/,132,0,0
+1615474362734,189,HTTP Request,200,OK,Thread Group 1-6,text,true,,15484,234,9,9,http://www.google.com/,60,0,0
+1615474362734,60,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,528,115,9,9,http://google.com/,60,0,0
+1615474362795,128,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,14956,119,9,9,http://www.google.com/,125,0,0
+1615474362735,192,HTTP Request,200,OK,Thread Group 1-1,text,true,,15480,234,8,8,http://www.google.com/,61,0,0
+1615474362735,62,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,528,115,8,8,http://google.com/,61,0,0
+1615474362797,130,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,14952,119,8,8,http://www.google.com/,126,0,0
+1615474362745,189,HTTP Request,200,OK,Thread Group 1-4,text,true,,15423,234,7,7,http://www.google.com/,61,0,0
+1615474362745,61,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,528,115,7,7,http://google.com/,61,0,0
+1615474362806,128,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,14895,119,7,7,http://www.google.com/,124,0,0
+1615474362745,189,HTTP Request,200,OK,Thread Group 1-5,text,true,,15476,234,7,7,http://www.google.com/,62,0,0
+1615474362745,63,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,528,115,7,7,http://google.com/,62,0,0
+1615474362808,126,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,14948,119,7,7,http://www.google.com/,123,0,0
+1615474362744,191,HTTP Request,200,OK,Thread Group 1-3,text,true,,15438,234,7,7,http://www.google.com/,62,0,0
+1615474362744,62,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,528,115,7,7,http://google.com/,62,0,0
+1615474362807,128,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,14910,119,7,7,http://www.google.com/,125,0,0
+1615474362782,169,HTTP Request,200,OK,Thread Group 1-7,text,true,,15492,234,4,4,http://www.google.com/,56,0,0
+1615474362782,56,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,528,115,4,4,http://google.com/,56,0,0
+1615474362838,113,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,14964,119,4,4,http://www.google.com/,107,0,0
+1615474362729,317,HTTP Request,200,OK,Thread Group 1-9,text,true,,15514,234,3,3,http://www.google.com/,95,0,34
+1615474362729,95,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,528,115,3,3,http://google.com/,95,0,34
+1615474362825,221,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,14986,119,3,3,http://www.google.com/,190,0,91
+1615474362920,162,HTTP Request,200,OK,Thread Group 1-8,text,true,,15475,234,3,3,http://www.google.com/,61,0,0
+1615474362920,61,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,528,115,3,3,http://google.com/,61,0,0
+1615474362981,101,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,14947,119,3,3,http://www.google.com/,95,0,0
+1615474362830,304,HTTP Request,200,OK,Thread Group 1-10,text,true,,15446,234,2,2,http://www.google.com/,149,0,86
+1615474362830,149,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,528,115,2,2,http://google.com/,149,0,86
+1615474362980,154,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,14918,119,2,2,http://www.google.com/,123,0,32
+1615474363047,175,HTTP Request,200,OK,Thread Group 1-9,text,true,,15475,234,2,2,http://www.google.com/,66,0,0
+1615474363047,66,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,528,115,2,2,http://google.com/,66,0,0
+1615474363113,109,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,14947,119,2,2,http://www.google.com/,102,0,0
+1615474363136,154,HTTP Request,200,OK,Thread Group 1-10,text,true,,15500,234,1,1,http://www.google.com/,58,0,0
+1615474363136,58,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,528,115,1,1,http://google.com/,58,0,0
+1615474363195,95,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,14972,119,1,1,http://www.google.com/,90,0,0

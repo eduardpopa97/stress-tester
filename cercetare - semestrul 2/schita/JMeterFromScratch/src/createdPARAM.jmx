@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementProp elementType="HTTPArgument" name="Email">
+   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+   <stringProp name="Argument.value">abcd@yahoo.com</stringProp>
+   <stringProp name="Argument.metadata">=</stringProp>
+   <boolProp name="HTTPArgument.use_equals">true</boolProp>
+   <stringProp name="Argument.name">Email</stringProp>
+</elementProp>

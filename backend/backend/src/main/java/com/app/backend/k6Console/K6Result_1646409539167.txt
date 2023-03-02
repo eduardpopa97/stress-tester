@@ -1,0 +1,37 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/   
+     /\  /  \     |  |/  /   /  /    
+    /  \/    \    |     (   /   ‾‾\  
+   /          \   |  |\  \ |  (‾)  | 
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: D:\facultate\Anul 5\cercetare\backend\backend\src\main\java\com\app\backend\k6Files\K6Test_1646409539167.js
+     output: -
+
+  scenarios: (100.00%) 1 scenario, 3 max VUs, 30s max duration (incl. graceful stop):
+           * default: Up to 3 looping VUs for 2ms over 1 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (00.9s), 2/3 VUs, 0 complete and 0 interrupted iterations
+default ↓ [ 100% ] 3/3 VUs  2ms
+
+running (01.0s), 0/3 VUs, 2 complete and 0 interrupted iterations
+default ✓ [ 100% ] 0/3 VUs  2ms
+
+     data_received..............: 0 B     0 B/s
+     data_sent..................: 0 B     0 B/s
+     http_req_blocked...........: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_req_connecting........: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_req_duration..........: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_req_failed............: 100.00% ✓ 2        ✗ 0  
+     http_req_receiving.........: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_req_sending...........: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_req_tls_handshaking...: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_req_waiting...........: avg=0s    min=0s med=0s    max=0s    p(90)=0s    p(95)=0s   
+     http_reqs..................: 2       1.938803/s
+     iteration_duration.........: avg=1.01s min=1s med=1.01s max=1.01s p(90)=1.01s p(95)=1.01s
+     iterations.................: 2       1.938803/s
+     vus........................: 2       min=2      max=2
+     vus_max....................: 3       min=3      max=3
+

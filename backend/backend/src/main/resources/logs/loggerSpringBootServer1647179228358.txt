@@ -1,0 +1,72 @@
+{
+  "timestamp":1.647179228065E9,
+  "principal":null,
+  "session":null,
+  "request":{
+    "method":"GET",
+    "uri":"http://localhost:8080/v2/api-docs",
+    "headers":{
+      "sec-fetch-mode":[
+        "cors"
+      ],
+      "referer":[
+        "http://localhost:8080/swagger-ui.html"
+      ],
+      "sec-ch-ua":[
+        "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Opera\";v=\"84\""
+      ],
+      "sec-fetch-site":[
+        "same-origin"
+      ],
+      "sec-ch-ua-mobile":[
+        "?0"
+      ],
+      "accept-language":[
+        "en-US,en;q=0.9"
+      ],
+      "sec-ch-ua-platform":[
+        "\"Windows\""
+      ],
+      "host":[
+        "localhost:8080"
+      ],
+      "connection":[
+        "keep-alive"
+      ],
+      "accept-encoding":[
+        "gzip, deflate, br"
+      ],
+      "sec-fetch-dest":[
+        "empty"
+      ],
+      "user-agent":[
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.31"
+      ],
+      "accept":[
+        "application/json;charset=utf-8,*/*"
+      ]
+    },
+    "remoteAddress":null
+  },
+  "response":{
+    "status":200,
+    "headers":{
+      "Keep-Alive":[
+        "timeout=60"
+      ],
+      "Transfer-Encoding":[
+        "chunked"
+      ],
+      "Connection":[
+        "keep-alive"
+      ],
+      "Date":[
+        "Sun, 13 Mar 2022 13:47:08 GMT"
+      ],
+      "Content-Type":[
+        "application/json;charset=utf-8"
+      ]
+    }
+  },
+  "timeTaken":292
+} 

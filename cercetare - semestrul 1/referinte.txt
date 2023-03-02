@@ -1,0 +1,9 @@
+[1] Ms. S. Sharmila , Dr. E. Ramadevi - Analysis of Performance Testing on Web Applications, International Journal of Advanced Research in Computer and Communication Engineering Vol. 3, Issue 3, March 2014 (disponibil online la adresa https://ijarcce.com/wp-content/uploads/2012/03/IJARCCE4H-s-sharmila-Analysis-of-Performance-Testing-on-Web-Applications.pdf)
+[2] Interfața aplicației Apache JMeter: https://www.researchgate.net/figure/Specifying-Threads-Users-in-Apache-JMeter_fig1_332759795
+[3] Interfața aplicației LoadRunner: https://huddle.eurostarsoftwaretesting.com/oracle-ebs-performance-testing-using-loadrunner/
+[4] Interfața aplicației Neoload:
+https://www.aerow.group/tag/neoload-web-on-premise/
+[5] Comparație între diverse implementări anterioare: https://www.ubik-ingenierie.com/blog/apache-jmeter-vs-neoload-vs-hp-load-runner/
+[6] H. Sarojadevi - Performance Testing: Methodologies and Tools, Journal of Information Engineering and Applications, ISSN 2224-5758 (print) ISSN 2224-896X (disponibil online la adresa https://core.ac.uk/download/pdf/234676929.pdf) Vol 1, No.5, 2011
+[7] C. Barna, M. Litoiu, and H. Ghanbari (Department of Computer Science and Engineering York University Toronto, Canada) - Autonomic Load-Testing Framework (disponibil la http://barbie.uta.edu/~jxu/Autonomic%20Load-Testing%20Framework.pdf)
+[8] Andrew J. Kornecki, Nick Brixius, Ozeas Vieira Santana Filho - PERFORMANCE ANALYSIS OF WEB SERVERS - Apache and Microsoft IIS (disponibil online la adresa https://www.scitepress.org/Link.aspx?doi=10.5220%2f0001231102930298) 
